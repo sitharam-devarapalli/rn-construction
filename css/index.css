@@ -605,9 +605,10 @@
 
 
 /* what we do section css  */
-.rn-whatwe-highlight{
+.rn-whatwe-highlight {
     background: #D4D4D4 !important;
 }
+
 .rn-whatwe-subtitle {
     font-size: 14px;
     letter-spacing: 2px;
@@ -1330,6 +1331,7 @@
     font-size: 14px;
     font-weight: 500;
 }
+
 .painthomebrands-view:hover {
     color: #022179;
     text-decoration: none;
@@ -1366,6 +1368,7 @@
     from {
         transform: translateX(0);
     }
+
     to {
         transform: translateX(-50%);
     }
@@ -1386,224 +1389,400 @@
 
 /* about us page css  */
 .about-page {
-  font-family: 'Roboto', sans-serif;
-  background-color: #fff;
-  color: #222;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    color: #222;
 }
 
 .about-container {
-  max-width: 1200px;
-  margin: auto;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .about-header {
-  border-bottom: 2px solid #000;
-  padding-bottom: 10px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
 }
 
 .about-title {
-  font-size: 38px;
-  font-weight: 700;
-  color: #000;
+    font-size: 38px;
+    font-weight: 700;
+    color: #000;
 }
 
 .about-subtitle-text {
-  font-size: 16px;
-  color: #555;
+    font-size: 16px;
+    color: #555;
 }
 
 .about-subtitle {
-  font-size: 26px;
-  font-weight: 700;
-  color: #000;
-  margin-bottom: 20px;
+    font-size: 26px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 20px;
 }
 
 .about-text {
-  font-size: 15.5px;
-  color: #444;
-  line-height: 1.8;
+    font-size: 15.5px;
+    color: #444;
+    line-height: 1.8;
 }
 
 .about-section {
-  margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .about-leader-box {
-  background: #f9f9f9;
-  border-radius: 5px;
+    background: #f9f9f9;
+    border-radius: 5px;
 }
 
 .about-leader-name {
-  font-weight: 600;
-  color: #111;
+    font-weight: 600;
+    color: #111;
 }
 
 .about-why-box {
-  background: #fdfdfd;
-  border-radius: 5px;
-  transition: all 0.3s ease;
+    background: #fdfdfd;
+    border-radius: 5px;
+    transition: all 0.3s ease;
 }
 
 .about-why-box:hover {
-  background-color: #f1f1f1;
+    background-color: #f1f1f1;
+}
+.about-subtitle {
+  font-size: 28px;
+  font-weight: 600;
+  color: #000;
+}
+
+.about-cert-card {
+  background-color: #f9f9f9;
+  transition: all 0.3s ease;
+}
+
+.about-cert-card:hover {
+  background-color: #fff;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+}
+
+.about-cert-text {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
 }
 
 /* Tablet View (768px - 991px) */
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  .about-container {
-    padding: 0 30px;
-  }
+    .about-container {
+        padding: 0 30px;
+    }
 
-  .about-title {
-    font-size: 32px;
-  }
+    .about-title {
+        font-size: 32px;
+    }
 
-  .about-subtitle {
-    font-size: 22px;
-  }
+    .about-subtitle {
+        font-size: 22px;
+    }
 
-  .about-text {
-    font-size: 14.5px;
-    line-height: 1.7;
-  }
+    .about-text {
+        font-size: 14.5px;
+        line-height: 1.7;
+    }
 
-  .about-section {
-    margin-bottom: 40px;
-  }
+    .about-section {
+        margin-bottom: 40px;
+    }
 }
 
 /* Mobile View (up to 480px) */
 @media screen and (max-width: 480px) {
-  .about-container {
-    padding: 0 20px;
-  }
+    .about-container {
+        padding: 0 20px;
+    }
 
-  .about-title {
-    font-size: 28px;
-    text-align: center;
-  }
+    .about-title {
+        font-size: 28px;
+        text-align: center;
+    }
 
-  .about-subtitle {
-    font-size: 20px;
-    text-align: center;
-  }
+    .about-subtitle {
+        font-size: 20px;
+        text-align: center;
+    }
 
-  .about-subtitle-text,
-  .about-text {
-    font-size: 14px;
-    line-height: 1.6;
-    text-align: justify;
-  }
+    .about-subtitle-text,
+    .about-text {
+        font-size: 14px;
+        line-height: 1.6;
+        text-align: justify;
+    }
 
-  .about-section {
-    margin-bottom: 30px;
-  }
+    .about-section {
+        margin-bottom: 30px;
+    }
 
-  .about-leader-box,
-  .about-why-box {
-    padding: 15px;
-  }
+    .about-leader-box,
+    .about-why-box {
+        padding: 15px;
+    }
 
-  .about-why-box:hover {
-    background-color: #f9f9f9;
-  }
+    .about-why-box:hover {
+        background-color: #f9f9f9;
+    }
 }
 
 /* gallery section css  */
 .gallery-section {
-  background-color: #fff;
-  padding: 50px 20px;
-  font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    padding: 50px 20px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .gallery-container {
-  max-width: 1200px;
-  margin: auto;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .gallery-title-box {
-  text-align: center;
-  margin-bottom: 40px;
+    text-align: center;
+    margin-bottom: 40px;
 }
 
 .gallery-title {
-  font-size: 36px;
-  font-weight: 700;
-  color: #102c57;
-  border-bottom: 2px solid #102c57;
-  display: inline-block;
-  padding-bottom: 10px;
+    font-size: 36px;
+    font-weight: 700;
+    color: #102c57;
+    border-bottom: 2px solid #102c57;
+    display: inline-block;
+    padding-bottom: 10px;
 }
 
 .gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
 }
 
 .gallery-item {
-  position: relative;
-  overflow: hidden;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-  transition: transform 0.4s ease, box-shadow 0.4s ease;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
 .gallery-item:hover {
-  transform: scale(1.02);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    transform: scale(1.02);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
 }
 
 .gallery-img {
-  width: 100%;
-  height: 100%;
-  display: block;
-  object-fit: cover;
-  border-radius: 8px;
-  transition: transform 0.4s ease;
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.4s ease;
 }
 
 .gallery-caption {
-  position: absolute;
-  bottom: 0;
-  background: rgba(0,0,0,0.65);
-  color: #fff;
-  width: 100%;
-  padding: 12px;
-  font-size: 16px;
-  font-weight: 600;
-  letter-spacing: 0.5px !important;
-  text-align: center;
-  opacity: 0;
-  transform: translateY(100%);
-  transition: opacity 0.4s ease, transform 0.4s ease;
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.65);
+    color: #fff;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px !important;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: opacity 0.4s ease, transform 0.4s ease;
 }
 
 .gallery-item:hover .gallery-caption {
-  opacity: 1;
-  transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
 }
-@media (max-width: 991px) {
-  .gallery-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
 
-  .gallery-title {
-    font-size: 30px;
-  }
+@media (max-width: 991px) {
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .gallery-title {
+        font-size: 30px;
+    }
 }
 
 @media (max-width: 576px) {
-  .gallery-grid {
-    grid-template-columns: 1fr;
-  }
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
 
-  .gallery-title {
-    font-size: 26px;
-  }
+    .gallery-title {
+        font-size: 26px;
+    }
 
-  .gallery-caption {
-    font-size: 13px;
-  }
+    .gallery-caption {
+        font-size: 13px;
+    }
+}
+
+
+/* certification and permission section css  */
+.certification-section-alt {
+    background: #ffffff;
+    padding: 50px;
+}
+
+.certification-title-alt {
+    font-size: 36px;
+    font-weight: 700;
+    color: #000;
+}
+
+.certification-subtitle-alt {
+    font-size: 16px;
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+
+.cert-box {
+    position: relative;
+    background: #fdfdfd;
+    padding: 30px 20px 25px 20px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    overflow: hidden;
+    height: 100%;
+    text-align: left;
+}
+
+.cert-box:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.08);
+}
+
+.cert-box-icon {
+    width: 64px;
+    height: 64px;
+    background-color: #fff;
+    color: #000 !important;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.icon-img {
+    width: 60px;
+    height: 60px;
+}
+
+.cert-box-content h5 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1c2c4c;
+    margin-bottom: 10px;
+}
+
+.cert-box-content p {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Ribbon Accent */
+.ribbon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    background: linear-gradient(to right, #000, #000);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+@media (max-width: 991px) {
+    .certification-section-alt {
+        padding: 40px 20px;
+    }
+
+    .certification-title-alt {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .certification-subtitle-alt {
+        font-size: 15px;
+        text-align: center;
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    .cert-box {
+        padding: 25px 18px 20px 18px;
+    }
+
+    .cert-box-content h5 {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .cert-box-content p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .cert-box-icon {
+        margin: 0 auto 15px auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .certification-section-alt {
+        padding: 30px 15px;
+    }
+
+    .certification-title-alt {
+        font-size: 24px;
+    }
+
+    .certification-subtitle-alt {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .cert-box {
+        padding: 20px 15px 18px 15px;
+        text-align: center;
+    }
+
+    .cert-box-content h5 {
+        font-size: 16px;
+    }
+
+    .cert-box-content p {
+        font-size: 13px;
+    }
+
+    .icon-img {
+        width: 28px;
+        height: 28px;
+    }
+
+    .cert-box-icon {
+        width: 54px;
+        height: 54px;
+    }
 }
