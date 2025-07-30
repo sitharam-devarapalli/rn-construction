@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RN Construction</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css" />
+</head>
+
+<body>
+
+    <!-- Header Top (Social Icons) -->
+    <div class="rn-header-top d-flex justify-content-end align-items-center px-3 py-2 bg-black text-white">
+        <div class="rn-social-icons">
+            <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="text-white me-3"><i class="bi bi-whatsapp"></i></a>
+            <a href="#" class="text-white"><i class="bi bi-facebook"></i></a>
+        </div>
+    </div>
+
+    <!-- Main Header -->
+    <nav class="rn-header navbar navbar-expand-lg bg-white shadow-sm">
+        <div class="container-fluid">
+            <!-- Logo -->
+            <a class="rn-logo d-flex align-items-center text-decoration-none" href="#">
+                <img src="assets/logo-rn.png" alt="Logo" style="height: 50px;" class="me-2" />
+            </a>
+
+            <!-- Toggler (Mobile View) -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#rnNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navigation Links -->
+            <div class="collapse navbar-collapse justify-content-end" id="rnNavbar">
+                <ul class="navbar-nav rn-nav-links mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link text-dark" href="home.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="#">Team</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="#">Certification</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="constructio-banner position-relative text-white text-center">
+        <img src="assets/services-banner.jpg" alt="Contact Banner" class="constructio-banner-img img-fluid w-100">
+        <div class="constructio-banner-overlay position-absolute top-0 start-0 w-100 h-100"></div>
+
+        <div class="constructio-banner-content position-absolute top-50 start-50 translate-middle">
+            <h1 class="constructio-banner-title">Our Services</h1>
+            <nav class="constructio-breadcrumb mt-2">
+                <a href="index.html" class="constructio-breadcrumb-link">Home</a> /
+                <span class="constructio-breadcrumb-active">Our Services</span>
+            </nav>
+        </div>
+    </section>
+
+
+    <section class="service-section">
+        <div class="container-fluid p-0">
+            <div class="row">
+                <!-- Main Content -->
+                <div class="col-lg-8">
+                    <div class="service-image mb-4">
+                        <img src="assets/cont-slider-2.jpg" class="img-fluid rounded" alt="Building Construction">
+                    </div>
+                    <div class="service-content">
+                        <h2 class="mb-3">Building Construction</h2>
+                        <p class="mb-4">
+                            Our post-construction services give you peace of mind knowing the site will be there for you
+                            even after construction. Building construction is the process of planning, designing, and
+                            assembling structures such as homes, offices, malls, hospitals, and skyscrapers.
+                        </p>
+                        <p class="mb-4">
+                            Construction is essential for urban growth, better living standards, and infrastructure
+                            development. It includes residential, commercial, industrial, and institutional.
+                        </p>
+
+                        <!-- Services List -->
+                        <div class="service-list mb-5">
+                            <h4 class="mb-3">Our Services Include</h4>
+                            <ul class="list-unstyled row">
+                                <li class="col-md-6 mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Full
+                                    Principal Contractor service</li>
+                                <li class="col-md-6 mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>
+                                    Timber and steel frame construction</li>
+                                <li class="col-md-6 mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>
+                                    Turn-key projects</li>
+                                <li class="col-md-6 mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>
+                                    Groundworks and foundations</li>
+                                <li class="col-md-6 mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>
+                                    Mechanical & electrical installations</li>
+                                <li class="col-md-6 mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>
+                                    External landscaping, car parks & paths</li>
+                            </ul>
+                        </div>
+
+                        <!-- Steps to Process -->
+                        <div class="service-steps">
+                            <h4 class="mb-4">3 Simple Steps to Process</h4>
+                            <div class="row text-center">
+                                <div class="col-md-4 mb-4">
+                                    <div class="service-step p-3 border rounded h-100">
+                                        <img src="assets/service-1.png" alt="Planning" class="mb-3" width="70">
+                                        <h6>Planning</h6>
+                                        <p>Building consultation & essential documentation</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                    <div class="service-step p-3 border rounded h-100">
+                                        <img src="assets/service-2.png" alt="Design" class="mb-3" width="70">
+                                        <h6>Design</h6>
+                                        <p>Unique construction plans, elevations and 3D renderings</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                    <div class="service-step p-3 border rounded h-100">
+                                        <img src="assets/service-3.png" alt="Funding" class="mb-3" width="70">
+                                        <h6>Get Funds</h6>
+                                        <p>Access reliable assistance to source construction funds</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Sidebar -->
+                <div class="col-lg-4">
+                    <!-- Categories -->
+                    <div class="service-sidebar p-4 mb-4 bg-light rounded">
+                        <h5 class="service-sidebar-title mb-3">Categories</h5>
+                        <ul class="service-category list-unstyled">
+                            <li><a href="#" class="sidebar-link" data-service="residential-projects">Residential
+                                    Projects</a></li>
+                            <li><a href="#" class="sidebar-link" data-service="institutional-projects">Institutional
+                                    Projects</a></li>
+                            <li><a href="#" class="sidebar-link" data-service="commercial-projects">Commercial
+                                    Projects</a></li>
+                            <li><a href="#" class="sidebar-link" data-service="pile-foundation-works">Pile Foundation
+                                    Works</a></li>
+                            <li><a href="#" class="sidebar-link" data-service="interior-fit-outs">Interior Fit-Outs</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Social Icons -->
+                    <div class="service-social p-4 mb-4 text-center rounded">
+                        <h6 class="mb-3">Follow Us</h6>
+                        <div class="d-flex justify-content-center gap-3">
+                            <a href="#" class="social-circle"><i class="bi bi-facebook fs-5"></i></a>
+                            <a href="#" class="social-circle"><i class="bi bi-instagram fs-5"></i></a>
+                            <a href="#" class="social-circle"><i class="bi bi-youtube fs-5"></i></a>
+                            <a href="#" class="social-circle"><i class="bi bi-linkedin fs-5"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Help Box -->
+                    <div class="service-help p-4 bg-dark text-white rounded text-center">
+                        <div class="service-help-icon mb-3">
+                            <i class="bi bi-telephone-fill fs-2 text-warning"></i>
+                        </div>
+                        <p class="mb-1">Need Help? Call Here</p>
+                        <h5 class="mb-3">+91 9876543211</h5>
+                        <a href="#" class="btn btn-warning">Get a Quote</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="rn-footer text-white pt-5 pb-3">
+        <div class="container">
+            <div class="row gy-4">
+
+                <!-- About Us -->
+                <div class="col-md-3 col-sm-6">
+                    <div class="rn-footer-about">
+                        <img src="assets/logo-rn.png" alt="Logo" class="mb-3" style="max-width: 100px;">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy.</p>
+                    </div>
+                </div>
+
+                <!-- Helpful Links -->
+                <div class="col-md-3 col-sm-6">
+                    <h5 class="rn-footer-title">Help Full Links</h5>
+                    <ul class="list-unstyled rn-footer-links">
+                        <li><i class="bi bi-chevron-double-right text-white me-2"></i> Home</li>
+                        <li><i class="bi bi-chevron-double-right text-white me-2"></i> About Us</li>
+                        <li><i class="bi bi-chevron-double-right text-white me-2"></i> Services</li>
+                        <li><i class="bi bi-chevron-double-right text-white me-2"></i> Gallery</li>
+                        <li><i class="bi bi-chevron-double-right text-white me-2"></i> Contact Us</li>
+                    </ul>
+                </div>
+
+                <!-- Our Projects -->
+                <div class="col-md-3 col-sm-6">
+                    <h5 class="rn-footer-title">Our Projects</h5>
+                    <ul class="list-unstyled rn-footer-links">
+                        <li><i class="bi bi-chevron-double-right text-white me-2"></i> On Going Projects</li>
+                        <li><i class="bi bi-chevron-double-right text-white me-2"></i> Our Past Projects</li>
+                        <li><i class="bi bi-chevron-double-right text-white me-2"></i> Up Coming Projects</li>
+                        <li><i class="bi bi-chevron-double-right text-white me-2"></i> Certification</li>
+                    </ul>
+                </div>
+
+                <!-- Contact Us -->
+                <div class="col-md-3 col-sm-6">
+                    <h5 class="rn-footer-title">Contact Us</h5>
+                    <ul class="list-unstyled rn-footer-contact">
+                        <li><i class="bi bi-geo-alt-fill text-white me-2"></i> Raghunayaka Nirman Full Address</li>
+                        <li><i class="bi bi-telephone-fill text-white me-2"></i> +91-9999-8888-22</li>
+                        <li><i class="bi bi-envelope-fill text-white me-2"></i> Contact@Raghunayaka.in</li>
+                    </ul>
+                    <div class="rn-footer-social mt-3">
+                        <a href="#" class="me-2 text-white"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="me-2 text-white"><i class="bi bi-whatsapp"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-facebook"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="rn-footer-bottom text-center mt-4 pt-3 border-top border-light-subtle">
+                <p class="mb-0">&copy; All Rights Reserved By <a href="https://digispheretech.in/"
+                        class="digispheretech" target="_blank">Digisphere</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/service.js"></script>
+</body>
+
+</html>

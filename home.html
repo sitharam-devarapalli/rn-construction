@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RN Construction</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css" />
+</head>
+
+<body>
+
+    <!-- Header Top (Social Icons) -->
+    <div class="rn-header-top d-flex justify-content-end align-items-center px-3 py-2 bg-black text-white">
+        <div class="rn-social-icons">
+            <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="text-white me-3"><i class="bi bi-whatsapp"></i></a>
+            <a href="#" class="text-white"><i class="bi bi-facebook"></i></a>
+        </div>
+    </div>
+
+    <!-- Main Header -->
+    <nav class="rn-header navbar navbar-expand-lg bg-white shadow-sm">
+        <div class="container-fluid">
+            <!-- Logo -->
+            <a class="rn-logo d-flex align-items-center text-decoration-none" href="#">
+                <img src="assets/logo-rn.png" alt="Logo" style="height: 50px;" class="me-2" />
+            </a>
+
+            <!-- Toggler (Mobile View) -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#rnNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navigation Links -->
+            <div class="collapse navbar-collapse justify-content-end" id="rnNavbar">
+                <ul class="navbar-nav rn-nav-links mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link text-dark" href="home.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="#">Team</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="#">Certification</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- slider section code  -->
+    <section class="carousel-section">
+        <div id="constructionCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel"
+            data-bs-interval="4000">
+            <div class="carousel-inner">
+
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <div class="carousel-bg" style="background-image: url('./assets/sliders-1.jpg');">
+                        <div class="carousel-overlay">
+                            <p class="carousel-subtitle">CONSTRUCTION BUSINESS</p>
+                            <h1 class="carousel-title">Things Are<br>Constructed To<br>Be Great</h1>
+                            <p class="carousel-description">
+                                Building a better tomorrow with innovative engineering and strong foundations for
+                                growth.
+                            </p>
+                            <div class="carousel-buttons">
+                                <a href="#" class="btn btn-outline-light carousel-btn">LEARN MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                    <div class="carousel-bg" style="background-image: url('assets/sliders-2.jpg');">
+                        <div class="carousel-overlay">
+                            <p class="carousel-subtitle">MODERN INFRASTRUCTURE</p>
+                            <h1 class="carousel-title">Creating Skylines<br>That Shape<br>The Future</h1>
+                            <p class="carousel-description">
+                                From concept to creation, we deliver projects that stand the test of time and
+                                innovation.
+                            </p>
+                            <div class="carousel-buttons">
+                                <a href="#" class="btn btn-outline-light carousel-btn">DISCOVER MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="carousel-item">
+                    <div class="carousel-bg" style="background-image: url('assets/sliders-3.jpg');">
+                        <div class="carousel-overlay">
+                            <p class="carousel-subtitle">BUILDING TRUST</p>
+                            <h1 class="carousel-title">Structures That<br>Inspire &<br>Last Forever</h1>
+                            <p class="carousel-description">
+                                We specialize in quality construction and reliable services for commercial and
+                                residential projects.
+                            </p>
+                            <div class="carousel-buttons">
+                                <a href="#" class="btn btn-outline-light carousel-btn">VIEW SERVICES</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <div class="carousel-bottom text-center py-2">
+        <p class="mb-0 text-white fw-semibold">
+            We Provide Fast and Affordable Service For Your Dream Destination...!
+        </p>
+    </div>
+
+    <section class="rn-services py-5">
+        <div class="container text-center">
+            <p class="rn-services-subtitle mb-1">OUR SERVICES</p>
+            <h2 class="rn-services-title mb-3">We Build Everything</h2>
+            <p class="rn-services-desc mb-5">
+                We offer complete residential construction services tailored to your needs.
+            </p>
+
+            <div class="row g-4 justify-content-center">
+                <!-- Service Card 1 -->
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <div class="rn-service-card text-center h-100">
+                        <img src="assets/services-1.jpg" alt="Residential Projects" class="img-fluid mb-2">
+                        <h5 class="rn-service-title">Residential Projects</h5>
+                    </div>
+                </div>
+
+                <!-- Service Card 2 -->
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <div class="rn-service-card text-center h-100">
+                        <img src="assets/services-2.jpg" alt="Interior Design & Execution" class="img-fluid mb-2">
+                        <h5 class="rn-service-title">Interior Design & Execution</h5>
+                    </div>
+                </div>
+
+                <!-- Service Card 3 -->
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <div class="rn-service-card text-center h-100">
+                        <img src="assets/services-3.jpg" alt="Commercial Construction" class="img-fluid mb-2">
+                        <h5 class="rn-service-title">
+                            Commercial Construction
+                        </h5>
+                    </div>
+                </div>
+
+                <!-- Service Card 4 -->
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <div class="rn-service-card text-center h-100">
+                        <img src="assets/services-4.jpg" alt="Institutional Projects" class="img-fluid mb-2">
+                        <h5 class="rn-service-title">Institutional Projects</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="rn-homebanner">
+        <div class="rn-homebanner-left">
+            <div class="rn-homebanner-content">
+                <h2 class="rn-homebanner-title">WHO WE ARE ?</h2>
+                <p class="rn-homebanner-desc">
+                    At Raghunayaka Nirman, we are committed to building lasting structures and long-term relationships.
+                    Based in Vijayawada & Eluru, we are a multi-disciplinary construction company offering comprehensive
+                    solutions for residential, commercial, industrial, infrastructural, and institutional projects
+                    across
+                    Andhra Pradesh.
+                </p>
+            </div>
+        </div>
+        <div class="rn-homebanner-right">
+            <img src="/assets/home-banner-2.png" class="rn-homebanner-image" alt="Right Image">
+        </div>
+    </section>
+
+
+    <section class="rn-whatwe py-5 text-center">
+        <div class="container-fluid">
+            <p class="rn-whatwe-subtitle text-uppercase text-muted mb-2">What We Do</p>
+            <h2 class="rn-whatwe-title fw-bold mb-4">Our Key Highlights</h2>
+
+            <div class="row py-4 rn-whatwe-highlight">
+                <div class="col-12 col-md-4 mb-3 mb-md-0">
+                    <h3 class="rn-whatwe-count fw-bold display-6" data-count="18">0+</h3>
+                    <p class="rn-whatwe-label">Years Of Experience</p>
+                </div>
+                <div class="col-12 col-md-4 mb-3 mb-md-0">
+                    <h3 class="rn-whatwe-count fw-bold display-6" data-count="20">0+</h3>
+                    <p class="rn-whatwe-label">Completed Projects</p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <h3 class="rn-whatwe-count fw-bold display-6" data-count="300000">0+</h3>
+                    <p class="rn-whatwe-label">Construction Of Delivered Sq.Ft</p>
+                </div>
+            </div>
+
+            <div class="mt-4 rn-whatwe-points d-flex flex-column align-items-center text-center">
+                <div class="d-flex align-items-start mb-3">
+                    <span class="me-2">🛠️</span>
+                    <p class="mb-0">Projects in Eluru, Vijayawada, Vizag & Surrounding Regions.</p>
+                </div>
+                <div class="d-flex align-items-start mb-3">
+                    <span class="me-2">👷‍♂️</span>
+                    <p class="mb-0">Strong In-house Team of Engineers, Site Managers & Skilled Workers.</p>
+                </div>
+                <div class="d-flex align-items-start">
+                    <span class="me-2">🤝</span>
+                    <p class="mb-0">Trusted by Repeat Clients from Educational Institutions, Private Developers, and
+                        Industrial Companies.</p>
+                </div>
+            </div>
+
+            <button class="btn rn-services-btn mt-4 px-4 py-2">View More</button>
+        </div>
+    </section>
+
+    <!-- brand code  -->
+    <div class="painthomebrands-main1">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <h4 class="fw-bold">Our Brands</h4>
+            </div>
+
+            <div class="painthomebrands-slider">
+                <div class="painthomebrands-track">
+                    <!-- Add brand items -->
+                    <div class="painthomebrands-item"><img src="assets/brand-logos/1.png" alt="Asian Paints"></div>
+                    <div class="painthomebrands-item"><img src="assets/brand-logos/2.png" alt="Birla Opus"></div>
+                    <div class="painthomebrands-item"><img src="assets/brand-logos/Kajaria.png" alt="Berger Paints"></div>
+                    <div class="painthomebrands-item"><img src="assets/brand-logos/3.png" alt="Nippon"></div>
+                    <div class="painthomebrands-item"><img src="assets/brand-logos/4.png" alt="Indigo Paints">
+                    </div>
+                    <div class="painthomebrands-item"><img src="assets/brand-logos/5.png" alt="Nerolac"></div>
+                    <div class="painthomebrands-item"><img src="assets/brand-logos/6.png" alt="Dulux"></div>
+                    <div class="painthomebrands-item"><img src="assets/brand-logos/7.png" alt="Nexon"></div>
+                    <div class="painthomebrands-item"><img src="assets/brand-logos/8.png" alt="Birla White"></div>
+                    <div class="painthomebrands-item"><img src="assets/brand-logos/9.png" alt="Esdee"></div>
+                    <div class="painthomebrands-item"><img src="assets/brand-logos/10.png" alt="Eagle"></div>
+                    <div class="painthomebrands-item"><img src="assets/brand-logos/11.png" alt="Dr Fixit"></div>
+                    <div class="painthomebrands-item"><img src="assets/brand-logos/12.png" alt="MRF"></div>
+                    <div class="painthomebrands-item"><img src="assets/brand-logos/13.png" alt="JSW Paints"></div>
+                    <div class="painthomebrands-item"><img src="assets/brand-logos/14.png" alt="NCL"></div>
+                    <div class="painthomebrands-item"><img src="assets/brand-logos/15.png" alt="JK"></div>
+                    <div class="painthomebrands-item"><img src="assets/brand-logos/16.png" alt="Asian Paints"></div>
+                    <div class="painthomebrands-item"><img src="assets/brand-logos/17.png" alt="Asian Paints WT"></div>
+                    <div class="painthomebrands-item"><img src="assets/brand-logos/18.png" alt="Dr Fixit"></div>
+                    <div class="painthomebrands-item"><img src="assets/brand-logos/19.png" alt="MRF"></div>
+                    <div class="painthomebrands-item"><img src="assets/brand-logos/20.png" alt="JSW Paints"></div>
+                    <div class="painthomebrands-item"><img src="assets/brand-logos/21.png" alt="NCL"></div>
+                    <div class="painthomebrands-item"><img src="assets/brand-logos/22.png" alt="JK"></div>
+                    <div class="painthomebrands-item"><img src="assets/brand-logos/23.png" alt="Asian Paints"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="rn-whychoose py-5 text-center">
+        <div class="container">
+            <p class="rn-whychoose-subtitle text-uppercase text-muted mb-2">Why Choose Us?</p>
+            <h2 class="rn-whychoose-title fw-bold mb-3">Why We’re Best Choice</h2>
+            <p class="rn-whychoose-desc mb-5">
+                We deliver quality work on time with full transparency and care. Our expert team, clear pricing, and
+                trusted process set us apart. Transparent costing
+            </p>
+
+            <div class="row g-4 justify-content-center rn-whychoose-points">
+                <div class="col-6 col-md-4 d-flex align-items-start">
+                    <div class="rn-whychoose-icon me-3">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <p class="rn-whychoose-text">Timely delivery</p>
+                </div>
+                <div class="col-6 col-md-4 d-flex align-items-start">
+                    <div class="rn-whychoose-icon me-3">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <p class="rn-whychoose-text">Quality assurance</p>
+                </div>
+                <div class="col-6 col-md-4 d-flex align-items-start">
+                    <div class="rn-whychoose-icon me-3">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <p class="rn-whychoose-text">Dedicated project manager</p>
+                </div>
+                <div class="col-6 col-md-4 d-flex align-items-start">
+                    <div class="rn-whychoose-icon me-3">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <p class="rn-whychoose-text">Latest equipment</p>
+                </div>
+                <div class="col-6 col-md-4 d-flex align-items-start">
+                    <div class="rn-whychoose-icon me-3">
+                        <i class="fas fa-users-cog"></i>
+                    </div>
+                    <p class="rn-whychoose-text">Own technical & labour teams</p>
+                </div>
+                <div class="col-6 col-md-4 d-flex align-items-start">
+                    <div class="rn-whychoose-icon me-3">
+                        <i class="fas fa-drafting-compass"></i>
+                    </div>
+                    <p class="rn-whychoose-text">On site Engineers & architects</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="rn-services py-5">
+        <div class="container text-center">
+            <p class="rn-services-subtitle mb-1">OUR TEAM</p>
+            <h2 class="rn-services-title mb-3">Talented Minds Behind Our Projects</h2>
+            <p class="rn-services-desc mb-5">
+                We deliver quality work on time with full transparency and care. Our expert team, clear pricing, and
+                trusted process set us apart. Transparent costing
+            </p>
+
+            <div class="row g-4 justify-content-center">
+                <!-- Service Card 1 -->
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <div class="rn-service-card text-center h-100">
+                        <img src="assets/con-team-1.jpg" alt="Residential Projects" class="img-fluid mb-2">
+                        <h5 class="rn-service-title">Rakesh</h5>
+                    </div>
+                </div>
+
+                <!-- Service Card 2 -->
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <div class="rn-service-card text-center h-100">
+                        <img src="assets/con-team-2.jpg" alt="Interior Design & Execution" class="img-fluid mb-2">
+                        <h5 class="rn-service-title">Vamsi</h5>
+                    </div>
+                </div>
+
+                <!-- Service Card 3 -->
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <div class="rn-service-card text-center h-100">
+                        <img src="assets/con-team-3.jpg" alt="Commercial Construction" class="img-fluid mb-2">
+                        <h5 class="rn-service-title">
+                            Harish
+                        </h5>
+                    </div>
+                </div>
+
+                <!-- Service Card 4 -->
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <div class="rn-service-card text-center h-100">
+                        <img src="assets/con-team-4.jpg" alt="Institutional Projects" class="img-fluid mb-2">
+                        <h5 class="rn-service-title">Ramesh</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="rn-testimonial text-white py-5 position-relative">
+        <div class="overlay"></div>
+        <div class="container text-center position-relative">
+            <p class="rn-testimonial-subtitle text-uppercase text-white mb-2">Testimonials</p>
+            <h2 class="rn-testimonial-title fw-bold mb-5">What Says Clients About Us</h2>
+
+            <div id="testimonialCarousel" class="carousel slide rn-testimonial-carousel" data-bs-ride="carousel">
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <h5 class="rn-testimonial-name">Nainika</h5>
+                        <p class="rn-testimonial-text px-3 px-md-5">
+                            Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci.
+                            Aenean dignissim pellentesque felis.
+                        </p>
+                    </div>
+
+                    <div class="carousel-item">
+                        <h5 class="rn-testimonial-name">Rakesh</h5>
+                        <p class="rn-testimonial-text px-3 px-md-5">
+                            Great team to work with, always responsive and timely. Very happy with the construction
+                            quality and site
+                            execution.
+                        </p>
+                    </div>
+
+                    <div class="carousel-item">
+                        <h5 class="rn-testimonial-name">Sneha</h5>
+                        <p class="rn-testimonial-text px-3 px-md-5">
+                            Professional and transparent. Delivered the project as promised. Highly recommended for
+                            residential work.
+                        </p>
+                    </div>
+
+                </div>
+
+                <!-- Custom styled indicators -->
+                <div class="rn-testimonial-indicators mt-4">
+                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="rn-services py-5">
+        <div class="container text-center">
+            <p class="rn-services-subtitle mb-1">OUR PROJECTS</p>
+            <h2 class="rn-services-title mb-3">OUR CONSTRUCTION SERVICES</h2>
+            <p class="rn-services-desc mb-5">
+                We deliver quality work on time with full transparency and care. Our expert team, clear pricing,
+                and trusted process set us apart. Transparent costing
+            </p>
+
+            <div class="row g-4 justify-content-center">
+                <!-- Service Card 1 -->
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <div class="rn-service-card text-center h-100">
+                        <img src="assets/services-1.jpg" alt="Residential Projects" class="img-fluid mb-2">
+                        <h5 class="rn-service-title">Residential Projects</h5>
+                    </div>
+                </div>
+
+                <!-- Service Card 2 -->
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <div class="rn-service-card text-center h-100">
+                        <img src="assets/services-2.jpg" alt="Interior Design & Execution" class="img-fluid mb-2">
+                        <h5 class="rn-service-title">Interior Design & Execution</h5>
+                    </div>
+                </div>
+
+                <!-- Service Card 3 -->
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <div class="rn-service-card text-center h-100">
+                        <img src="assets/services-3.jpg" alt="Commercial Construction" class="img-fluid mb-2">
+                        <h5 class="rn-service-title">
+                            Commercial Construction
+                        </h5>
+                    </div>
+                </div>
+
+                <!-- Service Card 4 -->
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <div class="rn-service-card text-center h-100">
+                        <img src="assets/services-4.jpg" alt="Institutional Projects" class="img-fluid mb-2">
+                        <h5 class="rn-service-title">Institutional Projects</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- View More Button -->
+            <div class="mt-4">
+                <a href="#" class="btn px-4 py-2 rn-services-btn">VIEW MORE</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="rn-footer text-white pt-5 pb-3">
+        <div class="container">
+            <div class="row gy-4">
+
+                <!-- About Us -->
+                <div class="col-md-3 col-sm-6">
+                    <div class="rn-footer-about">
+                        <img src="assets/logo-rn.png" alt="Logo" class="mb-3" style="max-width: 100px;">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy.</p>
+                    </div>
+                </div>
+
+                <!-- Helpful Links -->
+                <div class="col-md-3 col-sm-6">
+                    <h5 class="rn-footer-title">Help Full Links</h5>
+                    <ul class="list-unstyled rn-footer-links">
+                        <li><i class="bi bi-chevron-double-right text-white me-2"></i> Home</li>
+                        <li><i class="bi bi-chevron-double-right text-white me-2"></i> About Us</li>
+                        <li><i class="bi bi-chevron-double-right text-white me-2"></i> Services</li>
+                        <li><i class="bi bi-chevron-double-right text-white me-2"></i> Gallery</li>
+                        <li><i class="bi bi-chevron-double-right text-white me-2"></i> Contact Us</li>
+                    </ul>
+                </div>
+
+                <!-- Our Projects -->
+                <div class="col-md-3 col-sm-6">
+                    <h5 class="rn-footer-title">Our Projects</h5>
+                    <ul class="list-unstyled rn-footer-links">
+                        <li><i class="bi bi-chevron-double-right text-white me-2"></i> On Going Projects</li>
+                        <li><i class="bi bi-chevron-double-right text-white me-2"></i> Our Past Projects</li>
+                        <li><i class="bi bi-chevron-double-right text-white me-2"></i> Up Coming Projects</li>
+                        <li><i class="bi bi-chevron-double-right text-white me-2"></i> Certification</li>
+                    </ul>
+                </div>
+
+                <!-- Contact Us -->
+                <div class="col-md-3 col-sm-6">
+                    <h5 class="rn-footer-title">Contact Us</h5>
+                    <ul class="list-unstyled rn-footer-contact">
+                        <li><i class="bi bi-geo-alt-fill text-white me-2"></i> Raghunayaka Nirman Full Address</li>
+                        <li><i class="bi bi-telephone-fill text-white me-2"></i> +91-9999-8888-22</li>
+                        <li><i class="bi bi-envelope-fill text-white me-2"></i> Contact@Raghunayaka.in</li>
+                    </ul>
+                    <div class="rn-footer-social mt-3">
+                        <a href="#" class="me-2 text-white"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="me-2 text-white"><i class="bi bi-whatsapp"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-facebook"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="rn-footer-bottom text-center mt-4 pt-3 border-top border-light-subtle">
+                <p class="mb-0">&copy; All Rights Reserved By <a href="https://digispheretech.in/"
+                        class="digispheretech" target="_blank">Digisphere</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

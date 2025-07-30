@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RN Construction</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css" />
+</head>
+
+<body>
+
+    <!-- Header Top (Social Icons) -->
+    <div class="rn-header-top d-flex justify-content-end align-items-center px-3 py-2 bg-black text-white">
+        <div class="rn-social-icons">
+            <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="text-white me-3"><i class="bi bi-whatsapp"></i></a>
+            <a href="#" class="text-white"><i class="bi bi-facebook"></i></a>
+        </div>
+    </div>
+
+    <!-- Main Header -->
+    <nav class="rn-header navbar navbar-expand-lg bg-white shadow-sm">
+        <div class="container-fluid">
+            <!-- Logo -->
+            <a class="rn-logo d-flex align-items-center text-decoration-none" href="#">
+                <img src="assets/logo-rn.png" alt="Logo" style="height: 50px;" class="me-2" />
+            </a>
+
+            <!-- Toggler (Mobile View) -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#rnNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navigation Links -->
+            <div class="collapse navbar-collapse justify-content-end" id="rnNavbar">
+                <ul class="navbar-nav rn-nav-links mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link text-dark" href="home.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="#">Team</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="#">Certification</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="constructio-banner position-relative text-white text-center">
+        <img src="assets/contatc-us-banner.jpg" alt="Contact Banner" class="constructio-banner-img img-fluid w-100">
+        <div class="constructio-banner-overlay position-absolute top-0 start-0 w-100 h-100"></div>
+
+        <div class="constructio-banner-content position-absolute top-50 start-50 translate-middle">
+            <h1 class="constructio-banner-title">Contact Us</h1>
+            <nav class="constructio-breadcrumb mt-2">
+                <a href="index.html" class="constructio-breadcrumb-link">Home</a> /
+                <span class="constructio-breadcrumb-active">Contact Us</span>
+            </nav>
+        </div>
+    </section>
+
+
+    <section class="contact-page-section">
+        <div class="container-fluid">
+            <!-- Contact Info -->
+            <div class="row text-center mb-5">
+                <div class="col-md-4 mb-4">
+                    <div class="contact-page-card p-4">
+                        <i class="contact-page-icon bi bi-telephone"></i>
+                        <h6 class="contact-page-title mt-3">Call Support Center 24/7</h6>
+                        <p class="contact-page-text mb-0">+91 9876543211</p>
+                        <p class="contact-page-text">+91 9876543211</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="contact-page-card p-4">
+                        <i class="contact-page-icon bi bi-envelope"></i>
+                        <h6 class="contact-page-title mt-3">Write To Us</h6>
+                        <p class="contact-page-text mb-0">info@domain.com</p>
+                        <p class="contact-page-text">support@domain.com</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="contact-page-card p-4">
+                        <i class="contact-page-icon bi bi-geo-alt"></i>
+                        <h6 class="contact-page-title mt-3">Visit Us</h6>
+                        <p class="contact-page-text">2307 Street Ave, NY, USA</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Form and Image -->
+            <div class="row align-items-center justify-content-center mb-5">
+                <div class="col-lg-8 mb-4">
+                    <div class="contact-page-form p-5">
+                        <h3 class="mb-2">Ready to get started?<br><span class="text-lowercase">let’s chat.</span></h3>
+                        <p>Please fill out the form below, and one of our team will get back to you as soon as possible.
+                        </p>
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6 mb-4">
+                                    <input type="text" class="form-control contact-page-input" placeholder="Name">
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <input type="email" class="form-control contact-page-input" placeholder="Email">
+                                </div>
+                                <div class="col-12 mb-4">
+                                    <input type="text" class="form-control contact-page-input" placeholder="Subject">
+                                </div>
+                                <div class="col-12 mb-4">
+                                    <textarea class="form-control contact-page-input" placeholder="Message"
+                                        rows="4"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn contatc-button-page">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 text-center">
+                    <div class="contact-page-image-box">
+                        <h5 class="text-white mb-3">Follow Us</h5>
+                        <div class="contact-page-social-icons mb-3 d-flex justify-content-center gap-3">
+                            <a href="#" class="contact-icon"><i class="bi bi-facebook"></i></a>
+                            <a href="#" class="contact-icon"><i class="bi bi-twitter"></i></a>
+                            <a href="#" class="contact-icon"><i class="bi bi-instagram"></i></a>
+                            <a href="#" class="contact-icon"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                        <img src="assets/contact-info-img.png" alt="Contact" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Google Map -->
+    <div class="contact-page-map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243647.75505894276!2d-74.0850819!3d40.7033127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c250b27e2189fd%3A0x8c5b4a93cdff4b48!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sin!4v1680000000000"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+    </div>
+
+    <footer class="rn-footer text-white pt-5 pb-3">
+        <div class="container">
+            <div class="row gy-4">
+
+                <!-- About Us -->
+                <div class="col-md-3 col-sm-6">
+                    <div class="rn-footer-about">
+                        <img src="assets/logo-rn.png" alt="Logo" class="mb-3" style="max-width: 100px;">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy.</p>
+                    </div>
+                </div>
+
+                <!-- Helpful Links -->
+                <div class="col-md-3 col-sm-6">
+                    <h5 class="rn-footer-title">Help Full Links</h5>
+                    <ul class="list-unstyled rn-footer-links">
+                        <li><i class="bi bi-chevron-double-right text-white me-2"></i> Home</li>
+                        <li><i class="bi bi-chevron-double-right text-white me-2"></i> About Us</li>
+                        <li><i class="bi bi-chevron-double-right text-white me-2"></i> Services</li>
+                        <li><i class="bi bi-chevron-double-right text-white me-2"></i> Gallery</li>
+                        <li><i class="bi bi-chevron-double-right text-white me-2"></i> Contact Us</li>
+                    </ul>
+                </div>
+
+                <!-- Our Projects -->
+                <div class="col-md-3 col-sm-6">
+                    <h5 class="rn-footer-title">Our Projects</h5>
+                    <ul class="list-unstyled rn-footer-links">
+                        <li><i class="bi bi-chevron-double-right text-white me-2"></i> On Going Projects</li>
+                        <li><i class="bi bi-chevron-double-right text-white me-2"></i> Our Past Projects</li>
+                        <li><i class="bi bi-chevron-double-right text-white me-2"></i> Up Coming Projects</li>
+                        <li><i class="bi bi-chevron-double-right text-white me-2"></i> Certification</li>
+                    </ul>
+                </div>
+
+                <!-- Contact Us -->
+                <div class="col-md-3 col-sm-6">
+                    <h5 class="rn-footer-title">Contact Us</h5>
+                    <ul class="list-unstyled rn-footer-contact">
+                        <li><i class="bi bi-geo-alt-fill text-white me-2"></i> Raghunayaka Nirman Full Address</li>
+                        <li><i class="bi bi-telephone-fill text-white me-2"></i> +91-9999-8888-22</li>
+                        <li><i class="bi bi-envelope-fill text-white me-2"></i> Contact@Raghunayaka.in</li>
+                    </ul>
+                    <div class="rn-footer-social mt-3">
+                        <a href="#" class="me-2 text-white"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="me-2 text-white"><i class="bi bi-whatsapp"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-facebook"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="rn-footer-bottom text-center mt-4 pt-3 border-top border-light-subtle">
+                <p class="mb-0">&copy; All Rights Reserved By <a href="https://digispheretech.in/"
+                        class="digispheretech" target="_blank">Digisphere</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/service.js"></script>
+</body>
+
+</html>
