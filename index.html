@@ -42,9 +42,19 @@
                     <li class="nav-item"><a class="nav-link text-dark" href="index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link text-dark" href="about.html">About Us</a></li>
                     <li class="nav-item"><a class="nav-link text-dark" href="services.html">Services</a></li>
-                    <li class="nav-item"><a class="nav-link text-dark" href="gallery.html">Gallery</a></li>
-                    <li class="nav-item"><a class="nav-link text-dark" href="teams.html">Team</a></li>
-                    <li class="nav-item"><a class="nav-link text-dark" href="certification.html">Certification</a></li>
+                    <li class="nav-item rn-dropdown-parent">
+                        <a class="nav-link rn-dropdown-toggle text-dark" id="ourWorksDropdown" role="button">
+                            Our Works
+                            <i class="fa-solid fa-angle-down rn-dropdown-icon"></i>
+                        </a>
+                        <ul class="rn-dropdown" aria-labelledby="ourWorksDropdown">
+                            <li><a class="rn-dropdown-link" href="gallery.html#interior">Completed project</a></li>
+                            <li><a class="rn-dropdown-link" href="gallery.html#exterior">Ongoing Project</a></li>
+                            <li><a class="rn-dropdown-link" href="gallery.html#projects">Upcoming Projects</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="teams.html">Our Team</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="certification.html">Specifications</a></li>
                     <li class="nav-item"><a class="nav-link text-dark" href="contact.html">Contact Us</a></li>
                 </ul>
             </div>
@@ -61,15 +71,15 @@
                 <div class="carousel-item active">
                     <div class="carousel-bg" style="background-image: url('./assets/sliders-1.jpg');">
                         <div class="carousel-overlay">
-                            <p class="carousel-subtitle">CONSTRUCTION BUSINESS</p>
-                            <h1 class="carousel-title">Things Are<br>Constructed To<br>Be Great</h1>
+                            <p class="carousel-subtitle">BUILDING DREAMS WITH PRECISION</p>
+                            <h1 class="carousel-title">From Foundation to Finish <br> We Build It All</h1>
                             <p class="carousel-description">
-                                Building a better tomorrow with innovative engineering and strong foundations for
-                                growth.
+                                Reliable solutions in Residential, Commercial, Industrial, and Institutional Projects
+                                including Piling, Heavy Civil Works, and Infrastructure Development.
                             </p>
-                            <div class="carousel-buttons">
+                            <!-- <div class="carousel-buttons">
                                 <a href="#" class="btn btn-outline-light carousel-btn">LEARN MORE</a>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -84,9 +94,6 @@
                                 From concept to creation, we deliver projects that stand the test of time and
                                 innovation.
                             </p>
-                            <div class="carousel-buttons">
-                                <a href="#" class="btn btn-outline-light carousel-btn">DISCOVER MORE</a>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -101,9 +108,6 @@
                                 We specialize in quality construction and reliable services for commercial and
                                 residential projects.
                             </p>
-                            <div class="carousel-buttons">
-                                <a href="#" class="btn btn-outline-light carousel-btn">VIEW SERVICES</a>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -116,6 +120,26 @@
             We Provide Fast and Affordable Service For Your Dream Destination...!
         </p>
     </div>
+
+    <section class="rn-homebanner pt-5">
+        <div class="rn-homebanner-left">
+            <div class="rn-homebanner-content">
+                <h2 class="rn-homebanner-title">WHO WE ARE ?</h2>
+                <p class="rn-homebanner-desc">
+                    At Raghunayaka Nirman, we are committed to building lasting structures and long-term relationships.
+                    Based in Vijayawada & Eluru we are a multi-disciplinary construction company offering comprehensive
+                    solutions for residential, commercial, industrial, infrastructural and institutional projects across
+                    Andhra Pradesh
+                </p>
+                <h5>Experience</h5>
+                <p class="rn-homebanner-desc">With over 2 decades of proven expertise, we’ve earned a reputation for
+                    delivering quality construction with precision, professionalism, and timely execution.</p>
+            </div>
+        </div>
+        <div class="rn-homebanner-right">
+            <img src="/assets/home-banner-2.jpg" class="rn-homebanner-image" alt="Right Image">
+        </div>
+    </section>
 
     <section class="rn-services py-5">
         <div class="container text-center">
@@ -163,25 +187,6 @@
         </div>
     </section>
 
-    <section class="rn-homebanner">
-        <div class="rn-homebanner-left">
-            <div class="rn-homebanner-content">
-                <h2 class="rn-homebanner-title">WHO WE ARE ?</h2>
-                <p class="rn-homebanner-desc">
-                    At Raghunayaka Nirman, we are committed to building lasting structures and long-term relationships.
-                    Based in Vijayawada & Eluru, we are a multi-disciplinary construction company offering comprehensive
-                    solutions for residential, commercial, industrial, infrastructural, and institutional projects
-                    across
-                    Andhra Pradesh.
-                </p>
-            </div>
-        </div>
-        <div class="rn-homebanner-right">
-            <img src="/assets/home-banner-2.png" class="rn-homebanner-image" alt="Right Image">
-        </div>
-    </section>
-
-
     <section class="rn-whatwe py-5 text-center">
         <div class="container-fluid">
             <p class="rn-whatwe-subtitle text-uppercase text-muted mb-2">What We Do</p>
@@ -217,8 +222,6 @@
                         Industrial Companies.</p>
                 </div>
             </div>
-
-            <button class="btn rn-services-btn mt-4 px-4 py-2">View More</button>
         </div>
     </section>
 
@@ -234,7 +237,8 @@
                     <!-- Add brand items -->
                     <div class="painthomebrands-item"><img src="assets/brand-logos/1.png" alt="Asian Paints"></div>
                     <div class="painthomebrands-item"><img src="assets/brand-logos/2.png" alt="Birla Opus"></div>
-                    <div class="painthomebrands-item"><img src="assets/brand-logos/Kajaria.png" alt="Berger Paints"></div>
+                    <div class="painthomebrands-item"><img src="assets/brand-logos/Kajaria.png" alt="Berger Paints">
+                    </div>
                     <div class="painthomebrands-item"><img src="assets/brand-logos/3.png" alt="Nippon"></div>
                     <div class="painthomebrands-item"><img src="assets/brand-logos/4.png" alt="Indigo Paints">
                     </div>
@@ -310,7 +314,7 @@
                     <p class="rn-whychoose-text">On site Engineers & architects</p>
                 </div>
             </div>
-        </div> 
+        </div>
     </section>
 
     <section class="rn-services py-5">
@@ -359,56 +363,6 @@
             </div>
         </div>
     </section>
-
-    <section class="rn-testimonial text-white py-5 position-relative">
-        <div class="overlay"></div>
-        <div class="container text-center position-relative">
-            <p class="rn-testimonial-subtitle text-uppercase text-white mb-2">Testimonials</p>
-            <h2 class="rn-testimonial-title fw-bold mb-5">What Says Clients About Us</h2>
-
-            <div id="testimonialCarousel" class="carousel slide rn-testimonial-carousel" data-bs-ride="carousel">
-                <div class="carousel-inner">
-
-                    <div class="carousel-item active">
-                        <h5 class="rn-testimonial-name">Nainika</h5>
-                        <p class="rn-testimonial-text px-3 px-md-5">
-                            Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci.
-                            Aenean dignissim pellentesque felis.
-                        </p>
-                    </div>
-
-                    <div class="carousel-item">
-                        <h5 class="rn-testimonial-name">Rakesh</h5>
-                        <p class="rn-testimonial-text px-3 px-md-5">
-                            Great team to work with, always responsive and timely. Very happy with the construction
-                            quality and site
-                            execution.
-                        </p>
-                    </div>
-
-                    <div class="carousel-item">
-                        <h5 class="rn-testimonial-name">Sneha</h5>
-                        <p class="rn-testimonial-text px-3 px-md-5">
-                            Professional and transparent. Delivered the project as promised. Highly recommended for
-                            residential work.
-                        </p>
-                    </div>
-
-                </div>
-
-                <!-- Custom styled indicators -->
-                <div class="rn-testimonial-indicators mt-4">
-                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                </div>
-            </div>
-        </div>
-    </section>
-
 
     <section class="rn-services py-5">
         <div class="container text-center">

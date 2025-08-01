@@ -64,6 +64,66 @@
     width: 60%;
 }
 
+/* Optional hover background */
+/* === Custom Dropdown === */
+.rn-dropdown-parent {
+    position: relative;
+}
+
+.rn-dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 220px;
+    padding: 10px 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    z-index: 999;
+    transition: all 0.3s ease;
+}
+
+.rn-dropdown-parent:hover .rn-dropdown {
+    display: block;
+}
+
+.rn-dropdown-link {
+    display: block;
+    padding: 10px 20px;
+    color: #111; 
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+    white-space: nowrap;
+}
+
+.rn-dropdown li {
+    list-style: none;
+}
+
+.rn-dropdown-link:hover {
+    background-color: #000;
+    color: #fff;
+    border-radius: 4px;
+}
+/* Icon next to 'Our Works' */
+.rn-dropdown-toggle .rn-dropdown-icon {
+    font-size: 13px;
+    transition: transform 0.3s ease;
+}
+
+/* Rotate icon when dropdown is open (mobile) */
+.rn-dropdown-parent.open .rn-dropdown-icon {
+    transform: rotate(180deg);
+}
+@media (min-width: 992px) {
+    .rn-dropdown-parent:hover .rn-dropdown-icon {
+        transform: rotate(180deg);
+    }
+}
 /* ===== Responsive Styles ===== */
 @media (max-width: 991px) {
     .rn-nav-links {
@@ -82,6 +142,32 @@
 
     .rn-logo {
         margin-bottom: 10px;
+    }
+
+    .rn-dropdown-parent {
+        position: relative;
+    }
+
+    .rn-dropdown {
+        position: static;
+        display: none;
+        box-shadow: none;
+        border: none;
+        padding-left: 0;
+        margin-top: 5px;
+    }
+
+    .rn-dropdown-parent.open .rn-dropdown {
+        display: block;
+    }
+
+    .rn-dropdown-link {
+        padding: 10px 15px;
+        border-bottom: 1px solid #eee;
+    }
+
+    .rn-dropdown-link:last-child {
+        border-bottom: none;
     }
 }
 
@@ -494,7 +580,7 @@
 
 /* Left side (with background image and overlay) */
 .rn-homebanner-left {
-    background-image: url('/assets/home-banner-1.jpg');
+    /* background-image: url('/assets/home-banner-1.jpg'); */
     background-size: cover;
     background-position: center;
     position: relative;
@@ -513,7 +599,8 @@
     left: 0;
     height: 100%;
     width: 100%;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2));
+    /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)); */
+    background: #000;
     z-index: 1;
 }
 
@@ -716,87 +803,6 @@
         width: 28px;
         height: 28px;
         font-size: 14px;
-    }
-}
-
-/* testimonail section css  */
-.rn-testimonial {
-    background: url('/assets/review-section-bg.jpg') no-repeat center center/cover;
-    position: relative;
-    z-index: 1;
-}
-
-.rn-testimonial .overlay {
-    background-color: rgba(0, 0, 0, 0.6);
-    position: absolute;
-    inset: 0;
-    z-index: 0;
-}
-
-.rn-testimonial .container {
-    z-index: 2;
-    position: relative;
-}
-
-.rn-testimonial-subtitle {
-    font-size: 14px;
-    letter-spacing: 2px;
-    color: #ccc;
-}
-
-.rn-testimonial-title {
-    font-size: 28px;
-    font-weight: 700;
-}
-
-.rn-testimonial-name {
-    font-size: 18px;
-    font-weight: 600;
-    margin-bottom: 15px;
-}
-
-.rn-testimonial-text {
-    font-size: 15px;
-    line-height: 1.7;
-    max-width: 800px;
-    margin: 0 auto;
-    color: #f0f0f0;
-}
-
-.rn-testimonial-indicators {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-
-.rn-testimonial-indicators button {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    border: none;
-    background-color: #ccc;
-    opacity: 0.6;
-    transition: 0.3s;
-}
-
-.rn-testimonial-indicators button.active,
-.rn-testimonial-indicators button:hover {
-    background-color: #fff;
-    opacity: 1;
-}
-
-@media (max-width: 767.98px) {
-    .rn-testimonial-title {
-        font-size: 22px;
-    }
-
-    .rn-testimonial-text {
-        font-size: 14px;
-        padding: 0 15px;
-    }
-
-    .rn-testimonial-name {
-        font-size: 16px;
     }
 }
 
@@ -1451,26 +1457,27 @@
 .about-why-box:hover {
     background-color: #f1f1f1;
 }
+
 .about-subtitle {
-  font-size: 28px;
-  font-weight: 600;
-  color: #000;
+    font-size: 28px;
+    font-weight: 600;
+    color: #000;
 }
 
 .about-cert-card {
-  background-color: #f9f9f9;
-  transition: all 0.3s ease;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
 }
 
 .about-cert-card:hover {
-  background-color: #fff;
-  box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+    background-color: #fff;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
 }
 
 .about-cert-text {
-  font-size: 16px;
-  font-weight: 500;
-  color: #333;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
 }
 
 /* Tablet View (768px - 991px) */

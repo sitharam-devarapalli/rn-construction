@@ -28,3 +28,21 @@
     interval: 5000, // 5 seconds
     ride: 'carousel'
   });
+
+
+  // home page header drop down js 
+  document.addEventListener('DOMContentLoaded', function () {
+    const dropdown = document.querySelector('.dropdown');
+
+    dropdown.addEventListener('mouseenter', function () {
+      const toggle = this.querySelector('[data-bs-toggle="dropdown"]');
+      const dropdownMenu = new bootstrap.Dropdown(toggle);
+      dropdownMenu.show();
+    });
+
+    dropdown.addEventListener('mouseleave', function () {
+      const toggle = this.querySelector('[data-bs-toggle="dropdown"]');
+      const dropdownMenu = new bootstrap.Dropdown(toggle);
+      dropdownMenu.hide();
+    });
+  });
