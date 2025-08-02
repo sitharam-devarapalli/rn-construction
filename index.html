@@ -141,48 +141,96 @@
         </div>
     </section>
 
-    <section class="rn-services py-5">
+    <section class="home-services pt-5">
         <div class="container text-center">
-            <p class="rn-services-subtitle mb-1">OUR SERVICES</p>
-            <h2 class="rn-services-title mb-3">We Build Everything</h2>
-            <p class="rn-services-desc mb-5">
+            <p class="home-services-subtitle mb-1">OUR SERVICES</p>
+            <h2 class="home-services-title mb-3">We Build Everything</h2>
+            <p class="home-services-desc mb-5">
                 We offer complete residential construction services tailored to your needs.
             </p>
 
-            <div class="row g-4 justify-content-center">
-                <!-- Service Card 1 -->
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <div class="rn-service-card text-center h-100">
-                        <img src="assets/services-1.jpg" alt="Residential Projects" class="img-fluid mb-2">
-                        <h5 class="rn-service-title">Residential Projects</h5>
+            <div id="servicesCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <!-- Card 1 -->
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="home-service-card text-center h-100">
+                                    <img src="assets/services-1.jpg" alt="Residential Projects" class="img-fluid mb-2">
+                                    <h5 class="home-service-title">Residential Projects</h5>
+                                </div>
+                            </div>
+                            <!-- Card 2 -->
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="home-service-card text-center h-100">
+                                    <img src="assets/services-2.jpg" alt="Interior Design & Execution"
+                                        class="img-fluid mb-2">
+                                    <h5 class="home-service-title">Interior Design & Execution</h5>
+                                </div>
+                            </div>
+                            <!-- Card 3 -->
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="home-service-card text-center h-100">
+                                    <img src="assets/services-3.jpg" alt="Commercial Construction"
+                                        class="img-fluid mb-2">
+                                    <h5 class="home-service-title">Commercial Construction</h5>
+                                </div>
+                            </div>
+                            <!-- Card 4 -->
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="home-service-card text-center h-100">
+                                    <img src="assets/services-4.jpg" alt="Institutional Projects"
+                                        class="img-fluid mb-2">
+                                    <h5 class="home-service-title">Institutional Projects</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Second Slide with Extra Cards -->
+                    <div class="carousel-item">
+                        <div class="row">
+                            <!-- Card 5 -->
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="home-service-card text-center h-100">
+                                    <img src="assets/services-1.jpg" alt="Industrial Works" class="img-fluid mb-2">
+                                    <h5 class="home-service-title">Industrial Works</h5>
+                                </div>
+                            </div>
+                            <!-- Card 6 -->
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="home-service-card text-center h-100">
+                                    <img src="assets/services-2.jpg" alt="Piling Works" class="img-fluid mb-2">
+                                    <h5 class="home-service-title">Piling Works</h5>
+                                </div>
+                            </div>
+                            <!-- Card 7 -->
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="home-service-card text-center h-100">
+                                    <img src="assets/services-3.jpg" alt="Steel Structure Works" class="img-fluid mb-2">
+                                    <h5 class="home-service-title">Steel Structure Works</h5>
+                                </div>
+                            </div>
+                            <!-- Card 8 -->
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="home-service-card text-center h-100">
+                                    <img src="assets/services-4.jpg" alt="Maintenance Services" class="img-fluid mb-2">
+                                    <h5 class="home-service-title">Maintenance Services</h5>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <!-- Service Card 2 -->
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <div class="rn-service-card text-center h-100">
-                        <img src="assets/services-2.jpg" alt="Interior Design & Execution" class="img-fluid mb-2">
-                        <h5 class="rn-service-title">Interior Design & Execution</h5>
-                    </div>
-                </div>
-
-                <!-- Service Card 3 -->
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <div class="rn-service-card text-center h-100">
-                        <img src="assets/services-3.jpg" alt="Commercial Construction" class="img-fluid mb-2">
-                        <h5 class="rn-service-title">
-                            Commercial Construction
-                        </h5>
-                    </div>
-                </div>
-
-                <!-- Service Card 4 -->
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <div class="rn-service-card text-center h-100">
-                        <img src="assets/services-4.jpg" alt="Institutional Projects" class="img-fluid mb-2">
-                        <h5 class="rn-service-title">Institutional Projects</h5>
-                    </div>
-                </div>
+                <!-- Carousel Controls -->
+                <button class="carousel-control-prev custom-arrow" type="button" data-bs-target="#servicesCarousel"
+                    data-bs-slide="prev">
+                    <i class="arrow-left"></i>
+                </button>
+                <button class="carousel-control-next custom-arrow" type="button" data-bs-target="#servicesCarousel"
+                    data-bs-slide="next">
+                    <i class="arrow-right"></i>
+                </button>
             </div>
         </div>
     </section>
@@ -317,7 +365,7 @@
         </div>
     </section>
 
-    <section class="rn-services py-5">
+    <section class="rn-services pt-5">
         <div class="container text-center">
             <p class="rn-services-subtitle mb-1">OUR TEAM</p>
             <h2 class="rn-services-title mb-3">Talented Minds Behind Our Projects</h2>
