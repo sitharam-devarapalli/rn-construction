@@ -1966,109 +1966,68 @@
 }
 
 /* our team page section css  */
-.team-page-section {
-    background-color: #fff;
-}
-.construction-completed-pr-section{
+.construction-completed-pr-section {
+    background-color: #f9f9f9;
     padding: 50px;
 }
-.team-page-title {
-    font-size: 2rem;
-    font-weight: 700;
-    color: #0c1c36;
-}
 
-.team-page-member {
-    text-align: center;
-    padding: 5px;
-}
-
-/* Yellow circle */
-.team-page-image-wrapper {
-    width: 180px;
-    height: 180px;
-    border: 6px solid #f9c400;
-    border-radius: 50%;
-    overflow: hidden;
-    /* padding: 5px; */
-    background-color: transparent;
-}
-
-/* Black background inside the circle */
-.team-page-image-bg {
-    width: 100%;
-    height: 100%;
-    background-color: #000;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/* Team photo/silhouette */
-.team-page-img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
-    border-radius: 50%;
-}
-
-.team-page-name {
-    font-size: 1rem;
-    font-weight: 700;
-    color: #000;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.team-page-description {
-    font-size: 0.9rem;
-    color: #333;
-    line-height: 1.4;
-}
-
-
-/* our works page css  */
 .construction-completed-pr-title {
-    font-size: 21px;
+    font-size: 26px;
     font-weight: 700;
     color: #102c57;
+    margin-bottom: 40px;
+    border-left: 5px solid #f4aa1d;
+    padding-left: 15px;
 }
 
 .construction-completed-pr-card {
     background: #fff;
-    border: 1px solid #eaeaea;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
-    border-radius: 8px;
+    border: none;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 4px !important;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
 }
 
 .construction-completed-pr-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
 }
 
 .construction-completed-pr-img {
-    height: 250px;
+    width: 100%;
+    height: 220px;
     object-fit: cover;
-    border-radius: 6px;
+    transition: transform 0.4s ease;
+}
+
+.construction-completed-pr-card:hover .construction-completed-pr-img {
+    transform: scale(1.05);
 }
 
 .construction-completed-pr-name {
     font-size: 18px;
     font-weight: 600;
-    color: #000;
+    color: #333;
+    margin: 10px 0;
+    padding: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.construction-completed-pr-card:hover .construction-completed-pr-name {
+    color: #f4aa1d;
 }
 
 .construction-completed-pr-desc {
     font-size: 14px;
     color: #666;
+    padding: 0 15px 15px;
 }
 
 /* Responsive Adjustments */
-@media (max-width: 767.98px) {
+@media (max-width: 991.98px) {
     .construction-completed-pr-img {
-        height: 180px;
+        height: 200px;
     }
 
     .construction-completed-pr-name {
@@ -2077,5 +2036,16 @@
 
     .construction-completed-pr-desc {
         font-size: 13px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .construction-completed-pr-title {
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+
+    .construction-completed-pr-img {
+        height: 180px;
     }
 }
