@@ -224,6 +224,11 @@
     z-index: 1;
 }
 
+.ssl-aaa {
+    color: #fff;
+    text-decoration: none !important;
+}
+
 .rn-footer-title {
     font-size: 18px;
     margin-bottom: 15px;
@@ -532,7 +537,7 @@
 }
 
 .home-service-card img {
-    height: 250px;
+    height: 320px;
     width: 100%;
     object-fit: cover;
     /* border-radius: 4px; */
@@ -584,12 +589,15 @@
     background-color: #f4aa1d;
     cursor: pointer;
 }
+
 .carousel-control-prev {
-    left: -20px; /* Adjust as per design */
+    left: -20px;
+    /* Adjust as per design */
 }
 
 .carousel-control-next {
-    right: -20px; /* Adjust as per design */
+    right: -20px;
+    /* Adjust as per design */
 }
 
 /* Tablet View */
@@ -605,7 +613,8 @@
     .home-service-title {
         font-size: 15px;
     }
-        .carousel-control-prev,
+
+    .carousel-control-prev,
     .carousel-control-next {
         display: none !important;
     }
@@ -691,7 +700,7 @@
 }
 
 .rn-service-card img {
-    height: 250px;
+    height: 300px;
     width: 100%;
     object-fit: cover;
     /* border-radius: 4px; */
@@ -733,6 +742,7 @@
         padding: 10px 20px;
     }
 }
+
 /* home banner section css  */
 .rn-homebanner {
     display: flex;
@@ -1959,7 +1969,9 @@
 .team-page-section {
     background-color: #fff;
 }
-
+.construction-completed-pr-section{
+    padding: 50px;
+}
 .team-page-title {
     font-size: 2rem;
     font-weight: 700;
@@ -2013,4 +2025,57 @@
     font-size: 0.9rem;
     color: #333;
     line-height: 1.4;
+}
+
+
+/* our works page css  */
+.construction-completed-pr-title {
+    font-size: 21px;
+    font-weight: 700;
+    color: #102c57;
+}
+
+.construction-completed-pr-card {
+    background: #fff;
+    border: 1px solid #eaeaea;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    border-radius: 8px;
+}
+
+.construction-completed-pr-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.construction-completed-pr-img {
+    height: 250px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.construction-completed-pr-name {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+}
+
+.construction-completed-pr-desc {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 767.98px) {
+    .construction-completed-pr-img {
+        height: 180px;
+    }
+
+    .construction-completed-pr-name {
+        font-size: 16px;
+    }
+
+    .construction-completed-pr-desc {
+        font-size: 13px;
+    }
 }

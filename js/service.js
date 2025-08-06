@@ -2,159 +2,141 @@ const serviceData = {
     "residential-projects": {
         "title": "Residential Projects",
         "image": "assets/service-img-1.jpg",
-        "description1": "Our residential projects are crafted to reflect modern living with timeless design. Whether you're building your dream villa or a sophisticated apartment, we bring expertise and creativity to every project. From space planning to premium finishing, we ensure the home aligns with your lifestyle, comfort, and functionality. Our commitment to excellence ensures a hassle-free experience from planning to handover.",
-        "description2": "Including villas, apartments and gated communities with eco-friendly construction and interior design services that stand the test of time.",
+        "description1": "We offer complete residential construction services tailored to your needs, providing modern, elegant, and functional homes. From independent villas to custom-designed apartments, our team ensures every detail reflects your lifestyle, comfort, and personal taste. Whether it's planning, designing, or execution, we manage the entire process to give you a seamless, hassle-free experience.",
+        "description2": "Our projects include independent villas, apartments, independent floor apartments, duplex & triplex houses, turnkey homes, farmhouses, weekend retreats, and landowner joint developments. We focus on quality materials, sustainable construction practices, and attention to finishing that lasts a lifetime.",
         "services": [
-            "Custom home design",
-            "Luxury villa construction",
-            "Eco-friendly materials",
-            "Interior & exterior finishing"
+            "Independent Villas",
+            "Apartments",
+            "Independent Floor Apartments",
+            "Custom-Designed Homes",
+            "Duplex & Triplex Houses",
+            "Turnkey Homes (Design to Handover)",
+            "Farmhouses / Weekend Retreats",
+            "Landowner Joint Developments"
         ],
-        "steps": [
-            {
-                "title": "Planning",
-                "img": "assets/service-1.png",
-                "desc": "We begin with a comprehensive consultation, understanding your needs, preferences, and ensuring all permissions and approvals are in place."
-            },
-            {
-                "title": "Design",
-                "img": "assets/service-2.png",
-                "desc": "Our team delivers realistic 3D layouts and visual presentations for both interiors and exteriors to bring your dream home to life."
-            },
-            {
-                "title": "Execution",
-                "img": "assets/service-3.png",
-                "desc": "We manage construction with precision and quality assurance, delivering on time with attention to every detail."
-            }
-        ]
     },
 
     "institutional-projects": {
         "title": "Institutional Projects",
         "image": "assets/service-img-2.jpg",
-        "description1": "At Digisphere, we specialize in constructing smart infrastructure for educational, healthcare, and government institutions. Our institutional projects are built to meet compliance, support community needs, and stand the test of time.",
-        "description2": "From planning to execution, we ensure functional, sustainable, and accessible buildings. Whether it's a school, hospital, or public facility, our focus remains on future-readiness, safety, and public utility enhancement.",
+        "description1": "We undertake construction of institutional buildings with proper planning, safety, and compliance. Our projects are designed to meet the specific requirements of educational, healthcare, government, and community facilities, ensuring long-lasting quality and operational efficiency.",
+        "description2": "From schools and colleges to hospitals and government offices, we provide comprehensive solutions that cover planning, design, construction, and finishing. Safety, accessibility, and functionality are at the core of every project we deliver.",
         "services": [
-            "Turnkey school buildings",
-            "Healthcare facility construction",
-            "Public utility works",
-            "Auditoriums and campus planning"
+            "Schools & Colleges construction",
+            "Hospitals & Clinics construction",
+            "Government Buildings & Offices",
+            "Community Halls & Training Centers",
+            "Hostels & Staff Quarters",
+            "Auditoriums and campus planning",
+            "Turnkey institutional solutions"
         ],
-        "steps": [
-            {
-                "title": "Planning",
-                "img": "assets/service-1.png",
-                "desc": "Government compliance and blueprints"
-            },
-            {
-                "title": "Design",
-                "img": "assets/service-2.png",
-                "desc": "Adaptive layouts & accessibility"
-            },
-            {
-                "title": "Delivery",
-                "img": "assets/service-3.png",
-                "desc": "Budget tracking & milestone handovers"
-            }
-        ]
     },
+
 
     "commercial-projects": {
         "title": "Commercial Projects",
         "image": "assets/service-img-3.jpg",
-        "description1": "We specialize in developing high-functioning, visually appealing commercial spaces that support long-term business success. Our designs are tailored to align with operational objectives, optimizing space utility and overall efficiency.",
-        "description2": "From conceptual planning to final delivery, we manage every stage of the commercial construction lifecycle. Whether it's office buildings, retail environments, or showrooms, we ensure scalable, sustainable, and future-ready outcomes with precision.",
+        "description1": "We take up a wide range of commercial building projects with focus on functionality, space efficiency, and brand aesthetics. Our designs ensure that every commercial space supports business growth, operational efficiency, and a compelling customer experience.",
+        "description2": "From offices and retail shops to restaurants, cafes, and warehouses, we manage every stage of construction from planning to delivery. Our turnkey solutions include interior fit-outs, parking layouts, and all essential infrastructure for a ready-to-use commercial facility.",
         "services": [
-            "Office and retail construction",
-            "Shopping mall development",
-            "Commercial interior fit-outs",
-            "Parking and access planning"
+            "Office Buildings construction",
+            "Retail Shops & Showrooms",
+            "Shopping Complexes / Mini-Malls",
+            "Restaurants & Cafes",
+            "Warehouses & Storage Spaces",
+            "Turnkey Commercial Interiors",
+            "Parking and access planning",
+            "Brand-aligned interior design"
         ],
-        "steps": [
-            {
-                "title": "Concept",
-                "img": "assets/service-1.png",
-                "desc": "Business-aligned layout planning"
-            },
-            {
-                "title": "Construction",
-                "img": "assets/service-2.png",
-                "desc": "Modern architecture & execution"
-            },
-            {
-                "title": "Completion",
-                "img": "assets/service-3.png",
-                "desc": "Client walkthrough and handover"
-            }
-        ]
     },
+
 
     "pile-foundation-works": {
-        "title": "Pile Foundation Works",
-        "image": "assets/service-img-4.jpg",
-        "description1": "We offer advanced pile foundation solutions designed to ensure structural stability and longevity for high-rise buildings, industrial complexes, and infrastructure projects. Our experienced team uses precision-based methodologies to deliver robust foundational systems that can withstand extreme loads and geotechnical conditions.",
-        "description2": "Specializing in cast-in-situ, driven piles, and bored pile techniques, we provide tailor-made solutions based on soil characteristics and structural needs. Our services include end-to-end execution—right from soil testing, structural assessments, drilling, and pile installation to post-completion certification and quality assurance.",
+        "title": "Piling Works",
+        "image": "assets/service-img-7.jpg",
+        "description1": "We provide comprehensive piling solutions for buildings, bridges, roads, and industrial structures, ensuring strong and reliable foundations for every project.",
+        "description2": "Using advanced piling rigs and techniques, we cater to both large-scale infrastructure projects and specialized industrial constructions, delivering precision and safety.",
         "services": [
-            "Bored pile foundations using hydraulic rigs",
-            "Driven piles with vibration or hammer techniques",
-            "Static and dynamic load testing",
-            "Geotechnical investigation and soil behavior analysis",
-            "Pile integrity testing and cross-hole sonic logging",
-            "On-site quality monitoring and reporting"
+            "DMC and Bored Piles – Deep foundations using rotary rigs",
+            "Cast-in-Situ Piles – Concrete poured directly into drilled holes",
+            "Auger Piles & Under-Reamed Piles – For low to medium load-bearing structures",
+            "Pile Testing – Static, dynamic, and integrity testing",
+            "Sheet Piling & Soil Stabilization – For retaining walls and weak ground"
         ],
-        "steps": [
-            {
-                "title": "Survey",
-                "img": "assets/service-1.png",
-                "desc": "Comprehensive geotechnical investigations, soil resistivity tests, and load-bearing capacity assessments to determine the right pile system for the project."
-            },
-            {
-                "title": "Execution",
-                "img": "assets/service-2.png",
-                "desc": "Implementation of bored or driven pile techniques using advanced machinery with strict adherence to project specs, timelines, and safety protocols."
-            },
-            {
-                "title": "Assurance",
-                "img": "assets/service-3.png",
-                "desc": "Post-execution validation including static load testing, pile integrity checks, and final compliance certification for structural approval and client handover."
-            }
-        ]
     },
 
+
     "interior-fit-outs": {
-        "title": "Interior Fit-Outs",
-        "image": "assets/service-img-1.jpg",
-        "description1": "We specialize in turning raw spaces into refined environments that blend aesthetics, functionality, and brand identity seamlessly.",
-        "description2": "From concept to completion, our interior fit-out solutions cover modular furniture, intelligent lighting, space optimization, and complete turnkey interior development tailored to both residential and commercial needs.",
+        "title": "Interior Design & Execution",
+        "image": "assets/service-img-6.jpg",
+        "description1": "We provide end-to-end interior solutions that are both functional and visually appealing. Our designs focus on optimizing space while reflecting your personal style or brand identity.",
+        "description2": "From conceptual planning to final implementation, we manage every aspect of interior design, ensuring a seamless experience and impeccable results.",
         "services": [
-            "False ceiling with LED ambient lighting",
-            "Premium modular furniture setup",
-            "Glass and wooden partitions, decorative cladding",
-            "Luxury finishes, textures, and branding elements",
-            "Custom cabinetry and wall units",
-            "Acoustic treatments for noise control",
-            "Smart home/office integration (IoT-enabled devices)",
-            "Flooring solutions – hardwood, vinyl, carpet tiles",
-            "MEP integration (Mechanical, Electrical, Plumbing)"
+            "Modular Kitchens & Wardrobes",
+            "False Ceilings & Lighting Design",
+            "TV Units, Partitions & Storage Solutions",
+            "Bathroom & Kitchen Fittings",
+            "Color Themes, Textures & Finishes",
+            "Complete Turnkey Interiors"
         ],
-        "steps": [
-            {
-                "title": "Concept & Design",
-                "img": "assets/service-1.png",
-                "desc": "Understanding your vision through mood boards, 3D renders, and premium material selections to bring your space to life."
-            },
-            {
-                "title": "Execution & Supervision",
-                "img": "assets/service-2.png",
-                "desc": "Meticulous fabrication and onsite installation under expert supervision, ensuring timelines and quality standards are met."
-            },
-            {
-                "title": "Finishing & Handover",
-                "img": "assets/service-3.png",
-                "desc": "Final detailing, polish, deep cleaning, and client walkthrough with handover of a fully functional, ready-to-use interior."
-            }
+    },
+
+    "industrial-projects": {
+        "title": "Industrial Projects",
+        "image": "assets/service-img-industrial.jpg",
+        "description1": "We deliver comprehensive industrial construction solutions tailored to meet the unique needs of modern industries. Our expertise spans warehouses, factories, workshops, and cold storage facilities, ensuring durable and functional structures that support your business operations efficiently.",
+        "description2": "From foundation works to complete structural development, we focus on quality, precision, and timely delivery. Our team is skilled in constructing PEB and RCC industrial sheds, boundary walls, and site infrastructure while adhering to safety and compliance standards.",
+        "description3": "We understand the importance of scalability, reliability, and operational efficiency in industrial projects. Our solutions are designed to maximize space utilization, durability, and long-term performance, providing a seamless construction experience from concept to completion.",
+        "services": [
+            "Warehouses & Godowns construction",
+            "Industrial Sheds (PEB & RCC) development",
+            "Factories & Workshops setup",
+            "Cold Storage Buildings construction",
+            "Foundation Works & RCC Structures",
+            "Boundary Walls & Site Infrastructure"
         ]
+    },
+    "turnkey-projects": {
+        "title": "Turnkey Projects",
+        "image": "assets/service-img-4.jpg",
+        "description1": "We handle everything from start to finish, so you don’t have to worry about any stage of the project. From initial design to final handover, our turnkey projects provide a seamless and stress-free construction experience.",
+        "description2": "Whether it’s residential, commercial, or institutional, our turnkey solutions cover planning, approvals, construction, interior works, and final delivery, ensuring a ready-to-use space that meets your expectations.",
+        "services": [
+            "Design & Planning",
+            "Building Approvals & Permissions",
+            "Construction Execution",
+            "Interior Works (if required)",
+            "Final Handover – Ready to Use"
+        ],
+    },
+    "joint-dev": {
+        "title": "Joint Development & Site Partnerships",
+        "image": "assets/service-img-5.jpg",
+        "description1": "We collaborate with landowners and clients to develop their land through fair and transparent agreements. Our joint development projects ensure mutual benefit, professional management, and high-quality construction outcomes.",
+        "description2": "From planning to execution, we offer end-to-end support including approvals, legal documentation, and marketing, ensuring a seamless partnership experience.",
+        "services": [
+            "Joint Venture Construction – Share-based building partnerships",
+            "Site Development for Owners – Fixed cost or profit-sharing model",
+            "Planning & Layout Finalization",
+            "Building Approvals & Legal Support",
+            "Execution & Marketing Support"
+        ],
+    },
+
+    "civil-infrastructure": {
+        "title": "Civil & Infrastructure Works",
+        "image": "assets/service-img-8.jpg",
+        "description1": "We undertake a wide range of civil and infrastructure projects, combining skilled teams, modern equipment, and strict safety standards to deliver quality results.",
+        "description2": "From industrial foundations to roads and retaining structures, our civil works are designed for durability, efficiency, and long-term performance.",
+        "services": [
+            "RCC Foundations – Industrial, commercial, and heavy-duty base structures",
+            "Cement Concrete Roads – Internal roads, approach roads, and site pavements",
+            "NH & BT Roadworks – Side drains, culverts, shoulder works, and finishing",
+            "Retaining Walls – For elevation control and land protection",
+            "Site Development – Earthwork, filling, leveling, and boundary works"
+        ],
     }
+
 
 };
 function getServiceFromURL() {
@@ -172,34 +154,65 @@ function renderServiceContent(serviceKey) {
     serviceSection.classList.add('fade-out');
 
     setTimeout(() => {
-        serviceImage.src = data.image;
-        serviceSection.querySelector('h2').textContent = data.title;
-        serviceSection.querySelectorAll('p')[0].textContent = data.description1;
-        serviceSection.querySelectorAll('p')[1].textContent = data.description2;
+        // Update main content
+        serviceImage.src = data.image || 'assets/default.jpg';
+        serviceSection.querySelector('h2').textContent = data.title || '';
+        serviceSection.querySelectorAll('p')[0].textContent = data.description1 || '';
+        serviceSection.querySelectorAll('p')[1].textContent = data.description2 || '';
 
-        // Service List
+        // Optional description3
+        if (data.description3) {
+            if (!serviceSection.querySelector('.description3')) {
+                const p3 = document.createElement('p');
+                p3.classList.add('mb-4', 'description3');
+                serviceSection.querySelectorAll('p')[1].after(p3);
+            }
+            serviceSection.querySelector('.description3').textContent = data.description3;
+        } else {
+            const p3 = serviceSection.querySelector('.description3');
+            if (p3) p3.remove();
+        }
+
+        // Update Service List
         const listContainer = document.querySelector('.service-list ul');
         listContainer.innerHTML = '';
-        data.services.forEach(item => {
-            listContainer.innerHTML += `
-          <li class="col-md-6 mb-2">
-            <i class="bi bi-check-circle-fill text-success me-2"></i> ${item}
-          </li>`;
-        });
+        if (data.services && data.services.length > 0) {
+            data.services.forEach(item => {
+                listContainer.innerHTML += `
+                  <li class="col-md-6 mb-2">
+                    <i class="bi bi-check-circle-fill text-success me-2"></i> ${item}
+                  </li>`;
+            });
+        }
 
-        // Step Updates
-        const steps = document.querySelectorAll('.service-step');
-        data.steps.forEach((step, i) => {
-            steps[i].querySelector('img').src = step.img;
-            steps[i].querySelector('h6').textContent = step.title;
-            steps[i].querySelector('p').textContent = step.desc;
-        });
+        // Update Steps
+        const stepsContainer = document.querySelector('.service-steps .row');
+        if (data.steps && data.steps.length > 0) {
+            // Make sure steps container exists
+            if (!stepsContainer) return;
 
-        // Animate In
+            stepsContainer.innerHTML = ''; // Clear old steps
+            data.steps.forEach(step => {
+                stepsContainer.innerHTML += `
+                    <div class="col-md-4 mb-4">
+                        <div class="service-step p-3 border rounded h-100">
+                            <img src="${step.img}" alt="${step.title}" class="mb-3" width="70">
+                            <h6>${step.title}</h6>
+                            <p>${step.desc}</p>
+                        </div>
+                    </div>`;
+            });
+
+            document.querySelector('.service-steps').style.display = 'block';
+        } else {
+            // Hide steps section if no steps
+            document.querySelector('.service-steps').style.display = 'none';
+        }
+
+        // Animate in
         serviceSection.classList.remove('fade-out');
         serviceSection.classList.add('fade-in');
 
-        // Reset animation class
         setTimeout(() => {
             serviceSection.classList.remove('fade-in');
         }, 300);
@@ -216,5 +229,10 @@ document.addEventListener("DOMContentLoaded", function () {
             history.pushState({}, "", `?service=${key}`);
             renderServiceContent(key);
         });
+    });
+
+    // Handle browser back/forward navigation
+    window.addEventListener('popstate', () => {
+        renderServiceContent(getServiceFromURL());
     });
 });

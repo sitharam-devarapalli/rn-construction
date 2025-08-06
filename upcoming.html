@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RN Construction</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css" />
+</head>
+
+<body>
+
+    <!-- Header Top (Social Icons) -->
+    <div class="rn-header-top d-flex justify-content-end align-items-center px-3 py-2 bg-black text-white">
+        <div class="rn-social-icons">
+            <a href="#" class="text-white me-2"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="text-white me-2"><i class="bi bi-whatsapp"></i></a>
+            <a href="#" class="text-white me-2"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-white me-2"><i class="bi bi-youtube"></i></a>
+            <a href="#" class="text-white "><i class="bi bi-linkedin"></i></a>
+        </div>
+    </div>
+
+    <!-- Main Header -->
+    <nav class="rn-header navbar navbar-expand-lg bg-white shadow-sm">
+        <div class="container-fluid">
+            <!-- Logo -->
+            <a class="rn-logo d-flex align-items-center text-decoration-none" href="#">
+                <img src="assets/logo-rn.png" alt="Logo" style="height: 50px;" class="me-2" />
+            </a>
+
+            <!-- Toggler (Mobile View) -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#rnNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navigation Links -->
+            <div class="collapse navbar-collapse justify-content-end" id="rnNavbar">
+                <ul class="navbar-nav rn-nav-links mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link text-dark" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="services.html">Services</a></li>
+                    <li class="nav-item rn-dropdown-parent">
+                        <a class="nav-link rn-dropdown-toggle text-dark" id="ourWorksDropdown" role="button">
+                            Our Works
+                            <i class="fa-solid fa-angle-down rn-dropdown-icon"></i>
+                        </a>
+                        <ul class="rn-dropdown" aria-labelledby="ourWorksDropdown">
+                            <li><a class="rn-dropdown-link" href="complted.html">Completed project</a></li>
+                            <li><a class="rn-dropdown-link" href="ongoing.html">Ongoing Project</a></li>
+                            <li><a class="rn-dropdown-link" href="upcoming.html">Upcoming Projects</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="teams.html">Our Team</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="certification.html">Specifications</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="constructio-banner position-relative text-white text-center">
+        <img src="assets/services-banner.jpg" alt="Contact Banner" class="constructio-banner-img img-fluid w-100">
+        <div class="constructio-banner-overlay position-absolute top-0 start-0 w-100 h-100"></div>
+
+        <div class="constructio-banner-content position-absolute top-50 start-50 translate-middle">
+            <h1 class="constructio-banner-title">Upcoming Projects</h1>
+            <nav class="constructio-breadcrumb mt-2">
+                <a href="index.html" class="constructio-breadcrumb-link">Home</a> /
+                <span class="constructio-breadcrumb-active">Upcoming Projects</span>
+            </nav>
+        </div>
+    </section>
+
+    
+
+    <footer class="rn-footer text-white pt-5 pb-3">
+        <div class="container">
+            <div class="row gy-4">
+
+                <!-- About Us -->
+                <div class="col-md-3 col-sm-6">
+                    <div class="rn-footer-about">
+                        <img src="assets/logo-rn.png" alt="Logo" class="mb-3" style="max-width: 100px;">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy.</p>
+                    </div>
+                </div>
+
+                <!-- Helpful Links -->
+                <div class="col-md-3 col-sm-6">
+                    <h5 class="rn-footer-title">Helpful Links</h5>
+                    <ul class="list-unstyled rn-footer-links">
+                        <li><i class="bi bi-chevron-double-right text-white me-2"></i><a href="index.html"
+                                class="ssl-aaa">Home</a></li>
+                        <li><i class="bi bi-chevron-double-right text-white me-2"></i><a href="about.html"
+                                class="ssl-aaa">About Us</a></li>
+                        <li><i class="bi bi-chevron-double-right text-white me-2"></i><a href="services.html"
+                                class="ssl-aaa">Services</a></li>
+                        <li><i class="bi bi-chevron-double-right text-white me-2"></i><a href="gallery.html"
+                                class="ssl-aaa">Gallery</a></li>
+                        <li><i class="bi bi-chevron-double-right text-white me-2"></i><a href="contact.html"
+                                class="ssl-aaa">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Our Projects -->
+                <div class="col-md-3 col-sm-6">
+                    <h5 class="rn-footer-title">Our Projects</h5>
+                    <ul class="list-unstyled rn-footer-links">
+                        <li><i class="bi bi-chevron-double-right text-white me-2"></i><a href="ongoing.html"
+                                class="ssl-aaa">On Going Projects</a></li>
+                        <li><i class="bi bi-chevron-double-right text-white me-2"></i><a href="complted.html"
+                                class="ssl-aaa">Our Past Projects</a></li>
+                        <li><i class="bi bi-chevron-double-right text-white me-2"></i><a href="upcoming.html"
+                                class="ssl-aaa">Up Coming Projects</a></li>
+                        <li><i class="bi bi-chevron-double-right text-white me-2"></i><a href="certification.html"
+                                class="ssl-aaa">Certification</a></li>
+                    </ul>
+                </div>
+
+
+                <!-- Contact Us -->
+                <div class="col-md-3 col-sm-6">
+                    <h5 class="rn-footer-title">Contact Us</h5>
+                    <ul class="list-unstyled rn-footer-contact">
+                        <li><i class="bi bi-geo-alt-fill text-white me-2"></i> Raghunayaka Nirman Full Address</li>
+                        <li><i class="bi bi-telephone-fill text-white me-2"></i> +91-9999-8888-22</li>
+                        <li><i class="bi bi-envelope-fill text-white me-2"></i> Contact@Raghunayaka.in</li>
+                    </ul>
+                    <div class="rn-footer-social mt-3">
+                        <a href="#" class="me-2 text-white"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="me-2 text-white"><i class="bi bi-whatsapp"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-facebook"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="rn-footer-bottom text-center mt-4 pt-3 border-top border-light-subtle">
+                <p class="mb-0">&copy; All Rights Reserved By <a href="https://digispheretech.in/"
+                        class="digispheretech" target="_blank">Digisphere</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
