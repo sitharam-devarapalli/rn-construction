@@ -1966,65 +1966,77 @@
 }
 
 /* our team page section css  */
+/* Section Wrapper */
 .construction-completed-pr-section {
-    background-color: #f4f6f8;
+    background-color: #f5f7fa;
     padding: 50px;
 }
 
+/* Section Title */
 .construction-completed-pr-title {
-    font-size: 21px;
+    font-size: 28px;
     font-weight: 800;
-    color: #0c1c36;
+    color: #1e2a39;
     margin-bottom: 50px;
     border-left: 6px solid #f4aa1d;
     padding-left: 20px;
-    letter-spacing: 0.5px;
+    line-height: 1.4;
+    letter-spacing: 0.3px;
 }
 
+/* Card Wrapper */
 .construction-completed-pr-card {
-    background: #ffffff;
-    border: none;
+    background-color: #ffffff;
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    cursor: pointer;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+    transition: all 0.35s ease;
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .construction-completed-pr-card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 16px 38px rgba(0, 0, 0, 0.12);
 }
 
+/* Project Image */
 .construction-completed-pr-img {
     width: 100%;
     height: 250px;
     object-fit: cover;
-    border-bottom: 1px solid #e0e0e0;
     transition: transform 0.4s ease;
 }
 
 .construction-completed-pr-card:hover .construction-completed-pr-img {
-    transform: scale(1.05);
+    transform: scale(1.04);
 }
 
+/* Project Name */
 .construction-completed-pr-name {
-    font-size: 20px;
-    font-weight: 700;
-    color: #0c1c36;
-    padding: 0 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #1e2a39;
+    padding: 20px 15px;
+    margin-bottom: 0;
     transition: color 0.3s ease;
+    background-color: #fff;
 }
 
 .construction-completed-pr-card:hover .construction-completed-pr-name {
     color: #f4aa1d;
 }
 
+/* Optional Description */
 .construction-completed-pr-desc {
-    font-size: 15px;
-    color: #555;
-    padding: 0 20px 20px;
+    font-size: 14px;
+    color: #6c757d;
+    padding: 0 15px 20px;
     line-height: 1.5;
+    background-color: #fff;
 }
 
 /* Responsive Adjustments */
@@ -2034,18 +2046,18 @@
     }
 
     .construction-completed-pr-name {
-        font-size: 18px;
+        font-size: 17px;
     }
 
     .construction-completed-pr-desc {
-        font-size: 14px;
+        font-size: 13px;
     }
 }
 
 @media (max-width: 767.98px) {
     .construction-completed-pr-title {
         font-size: 24px;
-        margin-bottom: 30px;
+        margin-bottom: 35px;
     }
 
     .construction-completed-pr-img {
@@ -2060,101 +2072,104 @@
 
 /* teams page section  */
 .team-page-section {
-  background-color: #fff;
+    background-color: #fff;
 }
 
 .team-page-title {
-  font-size: 2rem;
-  font-weight: 700;
-  color: #0c1c36;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #0c1c36;
 }
 
 .team-page-member {
-  text-align: center;
-  padding: 20px;
+    text-align: center;
+    padding: 20px;
 }
 
 /* Yellow circle */
 .team-page-image-wrapper {
-  width: 200px;
-  height: 200px;
-  border: 6px solid #f9c400;
-  border-radius: 50%;
-  overflow: hidden;
-  background-color: transparent;
+    width: 200px;
+    height: 200px;
+    border: 6px solid #f9c400;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: transparent;
 }
 
 /* Black background inside the circle */
 .team-page-image-bg {
-  width: 100%;
-  height: 100%;
-  background-color: #000;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Team photo/silhouette */
 .team-page-img {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;
-  border-radius: 50%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 50%;
 }
 
 .team-page-name {
-  font-size: 1rem;
-  font-weight: 700;
-  color: #000;
-  margin-top: 10px;
-  margin-bottom: 10px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #000;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .team-page-description {
-  font-size: 0.9rem;
-  color: #333;
-  line-height: 1.4;
+    font-size: 0.9rem;
+    color: #333;
+    line-height: 1.4;
+    text-align: justify;
+    padding: 0px 10px;
 }
+
 /* Responsive for tablets and phones */
 @media (max-width: 991.98px) {
-  .team-page-image-wrapper {
-    width: 160px;
-    height: 160px;
-  }
+    .team-page-image-wrapper {
+        width: 160px;
+        height: 160px;
+    }
 
-  .team-page-img {
-    max-width: 90%;
-    max-height: 90%;
-  }
+    .team-page-img {
+        max-width: 90%;
+        max-height: 90%;
+    }
 
-  .team-page-name {
-    font-size: 0.95rem; 
-  }
+    .team-page-name {
+        font-size: 0.95rem;
+    }
 
-  .team-page-description {
-    font-size: 0.85rem;
-  }
+    .team-page-description {
+        font-size: 0.85rem;
+    }
 }
 
 @media (max-width: 575.98px) {
-  .team-page-member {
-    padding: 10px;
-  }
+    .team-page-member {
+        padding: 10px;
+    }
 
-  .team-page-image-wrapper {
-    width: 200px;
-    height: 200px;
-    margin-bottom: 15px;
-  }
+    .team-page-image-wrapper {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 15px;
+    }
 
-  .team-page-title {
-    font-size: 1.5rem;
-  }
+    .team-page-title {
+        font-size: 1.5rem;
+    }
 
-  .team-page-description {
-    font-size: 0.8rem;
-  }
+    .team-page-description {
+        font-size: 0.8rem;
+    }
 }
 
 
