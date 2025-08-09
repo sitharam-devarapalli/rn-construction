@@ -2,8 +2,7 @@ const serviceData = {
     "residential-projects": {
         "title": "Residential Projects",
         "image": "assets/service-img-1.jpg",
-        "description1": "We offer complete residential construction services tailored to your needs, providing modern, elegant, and functional homes. From independent villas to custom-designed apartments, our team ensures every detail reflects your lifestyle, comfort, and personal taste. Whether it's planning, designing, or execution, we manage the entire process to give you a seamless, hassle-free experience.",
-        "description2": "Our projects include independent villas, apartments, independent floor apartments, duplex & triplex houses, turnkey homes, farmhouses, weekend retreats, and landowner joint developments. We focus on quality materials, sustainable construction practices, and attention to finishing that lasts a lifetime.",
+        "description1": "We offer complete residential construction services tailored to your needs, including:",
         "services": [
             "Independent Villas",
             "Apartments",
@@ -19,12 +18,11 @@ const serviceData = {
     "institutional-projects": {
         "title": "Institutional Projects",
         "image": "assets/service-img-2.jpg",
-        "description1": "We undertake construction of institutional buildings with proper planning, safety, and compliance. Our projects are designed to meet the specific requirements of educational, healthcare, government, and community facilities, ensuring long-lasting quality and operational efficiency.",
-        "description2": "From schools and colleges to hospitals and government offices, we provide comprehensive solutions that cover planning, design, construction, and finishing. Safety, accessibility, and functionality are at the core of every project we deliver.",
+        "description1": "We undertake construction of institutional buildings with proper planning, safety, and compliance:",
         "services": [
             "Schools & Colleges construction",
             "Hospitals & Clinics construction",
-            "Government Buildings & Offices",
+            "Government Buildings & Offices", 
             "Community Halls & Training Centers",
             "Hostels & Staff Quarters",
             "Auditoriums and campus planning",
@@ -36,8 +34,7 @@ const serviceData = {
     "commercial-projects": {
         "title": "Commercial Projects",
         "image": "assets/service-img-3.jpg",
-        "description1": "We take up a wide range of commercial building projects with focus on functionality, space efficiency, and brand aesthetics. Our designs ensure that every commercial space supports business growth, operational efficiency, and a compelling customer experience.",
-        "description2": "From offices and retail shops to restaurants, cafes, and warehouses, we manage every stage of construction from planning to delivery. Our turnkey solutions include interior fit-outs, parking layouts, and all essential infrastructure for a ready-to-use commercial facility.",
+        "description1": "We take up a wide range of commercial building projects with focus on functionality, space efficiency, and brand aesthetics.",
         "services": [
             "Office Buildings construction",
             "Retail Shops & Showrooms",
@@ -54,8 +51,7 @@ const serviceData = {
     "pile-foundation-works": {
         "title": "Piling Works",
         "image": "assets/service-img-7.jpg",
-        "description1": "We provide comprehensive piling solutions for buildings, bridges, roads, and industrial structures, ensuring strong and reliable foundations for every project.",
-        "description2": "Using advanced piling rigs and techniques, we cater to both large-scale infrastructure projects and specialized industrial constructions, delivering precision and safety.",
+        "description1": "We provide all types of piling services needed for buildings, bridges, roads, and industrial structures:",
         "services": [
             "DMC and Bored Piles – Deep foundations using rotary rigs",
             "Cast-in-Situ Piles – Concrete poured directly into drilled holes",
@@ -69,8 +65,7 @@ const serviceData = {
     "interior-fit-outs": {
         "title": "Interior Design & Execution",
         "image": "assets/service-img-6.jpg",
-        "description1": "We provide end-to-end interior solutions that are both functional and visually appealing. Our designs focus on optimizing space while reflecting your personal style or brand identity.",
-        "description2": "From conceptual planning to final implementation, we manage every aspect of interior design, ensuring a seamless experience and impeccable results.",
+        "description1": "We provide end-to-end interior solutions that are both functional and visually appealing.",
         "services": [
             "Modular Kitchens & Wardrobes",
             "False Ceilings & Lighting Design",
@@ -84,9 +79,7 @@ const serviceData = {
     "industrial-projects": {
         "title": "Industrial Projects",
         "image": "assets/service-img-industrial.jpg",
-        "description1": "We deliver comprehensive industrial construction solutions tailored to meet the unique needs of modern industries. Our expertise spans warehouses, factories, workshops, and cold storage facilities, ensuring durable and functional structures that support your business operations efficiently.",
-        "description2": "From foundation works to complete structural development, we focus on quality, precision, and timely delivery. Our team is skilled in constructing PEB and RCC industrial sheds, boundary walls, and site infrastructure while adhering to safety and compliance standards.",
-        "description3": "We understand the importance of scalability, reliability, and operational efficiency in industrial projects. Our solutions are designed to maximize space utilization, durability, and long-term performance, providing a seamless construction experience from concept to completion.",
+        "description1": "We provide end-to-end construction solutions for various industrial needs, including:",
         "services": [
             "Warehouses & Godowns construction",
             "Industrial Sheds (PEB & RCC) development",
@@ -99,8 +92,7 @@ const serviceData = {
     "turnkey-projects": {
         "title": "Turnkey Projects",
         "image": "assets/service-img-4.jpg",
-        "description1": "We handle everything from start to finish, so you don’t have to worry about any stage of the project. From initial design to final handover, our turnkey projects provide a seamless and stress-free construction experience.",
-        "description2": "Whether it’s residential, commercial, or institutional, our turnkey solutions cover planning, approvals, construction, interior works, and final delivery, ensuring a ready-to-use space that meets your expectations.",
+        "description1": "We handle everything from start to finish, so you don’t have to worry about any stage of the project.",
         "services": [
             "Design & Planning",
             "Building Approvals & Permissions",
@@ -112,8 +104,8 @@ const serviceData = {
     "joint-dev": {
         "title": "Joint Development & Site Partnerships",
         "image": "assets/service-img-5.jpg",
-        "description1": "We collaborate with landowners and clients to develop their land through fair and transparent agreements. Our joint development projects ensure mutual benefit, professional management, and high-quality construction outcomes.",
-        "description2": "From planning to execution, we offer end-to-end support including approvals, legal documentation, and marketing, ensuring a seamless partnership experience.",
+        "description1": "We collaborate with landowners and clients to develop their land through fair and transparent agreements.",
+        "description2": "Joint Venture Construction – Share-based building partnerships Site Development for Owners – Construction done on fixed cost or profit-sharing model",
         "services": [
             "Joint Venture Construction – Share-based building partnerships",
             "Site Development for Owners – Fixed cost or profit-sharing model",
@@ -126,8 +118,8 @@ const serviceData = {
     "civil-infrastructure": {
         "title": "Civil & Infrastructure Works",
         "image": "assets/service-img-8.jpg",
-        "description1": "We undertake a wide range of civil and infrastructure projects, combining skilled teams, modern equipment, and strict safety standards to deliver quality results.",
-        "description2": "From industrial foundations to roads and retaining structures, our civil works are designed for durability, efficiency, and long-term performance.",
+        "description1": "We take up all types of major and minor civil works with proper equipment, skilled teams, and site safety.",
+        "description2": "RCC Foundations – Industrial, commercial, and heavy-duty base structures Cement Concrete Roads – Internal roads, approach roads, and site pavements",
         "services": [
             "RCC Foundations – Industrial, commercial, and heavy-duty base structures",
             "Cement Concrete Roads – Internal roads, approach roads, and site pavements",

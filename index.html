@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>RN Construction</title>
-
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
@@ -14,23 +14,34 @@
 
 <body>
 
-    <!-- Header Top (Social Icons) -->
+    <!-- Header Top (Social Icons with Images) -->
     <div class="rn-header-top d-flex justify-content-end align-items-center px-3 py-2 bg-black text-white">
         <div class="rn-social-icons">
-            <a href="#" class="text-white me-2"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="text-white me-2"><i class="bi bi-whatsapp"></i></a>
-            <a href="#" class="text-white me-2"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="text-white me-2"><i class="bi bi-youtube"></i></a>
-            <a href="#" class="text-white "><i class="bi bi-linkedin"></i></a>
+            <a href="#" class="me-2">
+                <img src="assets/whatsapp.png" alt="Instagram" class="rn-social-icon-img">
+            </a>
+            <a href="#" class="me-2">
+                <img src="assets/instagram.png" alt="WhatsApp" class="rn-social-icon-img">
+            </a>
+            <a href="#" class="me-2">
+                <img src="assets/facebook.png" alt="Facebook" class="rn-social-icon-img">
+            </a>
+            <a href="#" class="me-2">
+                <img src="assets/youtube.png" alt="YouTube" class="rn-social-icon-img">
+            </a>
+            <a href="#">
+                <img src="assets/linkedin.png" alt="LinkedIn" class="rn-social-icon-img">
+            </a>
         </div>
     </div>
+
 
     <!-- Main Header -->
     <nav class="rn-header navbar navbar-expand-lg bg-white shadow-sm">
         <div class="container-fluid">
             <!-- Logo -->
             <a class="rn-logo d-flex align-items-center text-decoration-none" href="#">
-                <img src="assets/rn-logo.jpg" alt="Logo" style="height: 55px;" class="me-2" />
+                <img src="assets/RN Logo-1.png" alt="Logo" style="height: 60px;" class="me-2" />
             </a>
 
             <!-- Toggler (Mobile View) -->
@@ -46,12 +57,12 @@
                     <li class="nav-item"><a class="nav-link text-dark" href="services.html">Services</a></li>
                     <li class="nav-item rn-dropdown-parent">
                         <a class="nav-link rn-dropdown-toggle text-dark" id="ourWorksDropdown" role="button">
-                            Our Works
+                            Our Projects
                             <i class="fa-solid fa-angle-down rn-dropdown-icon"></i>
                         </a>
                         <ul class="rn-dropdown" aria-labelledby="ourWorksDropdown">
-                            <li><a class="rn-dropdown-link" href="complted.html">Completed project</a></li>
-                            <li><a class="rn-dropdown-link" href="ongoing.html">Ongoing Project</a></li>
+                            <li><a class="rn-dropdown-link" href="complted.html">Completed projects</a></li>
+                            <li><a class="rn-dropdown-link" href="ongoing.html">Ongoing Projects</a></li>
                             <li><a class="rn-dropdown-link" href="upcoming.html">Upcoming Projects</a></li>
                         </ul>
                     </li>
@@ -151,7 +162,7 @@
                 We offer complete residential construction services tailored to your needs.
             </p>
 
-            <div id="servicesCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div id="servicesCarousel" class="carousel slide">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="row">
@@ -275,21 +286,28 @@
                 </div>
             </div>
 
-            <div class="mt-4 rn-whatwe-points d-flex flex-column align-items-center text-center">
+            <div class="mt-4 rn-whatwe-points d-flex flex-column align-items-start text-start">
                 <div class="d-flex align-items-start mb-3">
-                    <span class="me-2">🛠️</span>
+                    <div class="rn-icon-box me-3">
+                        <i class="fas fa-tools"></i>
+                    </div>
                     <p class="mb-0">Projects in Eluru, Vijayawada, Vizag & Surrounding Regions.</p>
                 </div>
                 <div class="d-flex align-items-start mb-3">
-                    <span class="me-2">👷‍♂️</span>
+                    <div class="rn-icon-box me-3">
+                        <i class="fas fa-users-cog"></i>
+                    </div>
                     <p class="mb-0">Strong In-house Team of Engineers, Site Managers & Skilled Workers.</p>
                 </div>
                 <div class="d-flex align-items-start">
-                    <span class="me-2">🤝</span>
+                    <div class="rn-icon-box me-3">
+                        <i class="fas fa-handshake"></i>
+                    </div>
                     <p class="mb-0">Trusted by Repeat Clients from Educational Institutions, Private Developers, and
                         Industrial Companies.</p>
                 </div>
             </div>
+
         </div>
     </section>
 
@@ -334,6 +352,46 @@
         </div>
     </div>
 
+    <!-- our projects code  -->
+    <!-- <div class="painthomebrands-main1">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <h4 class="fw-bold">Our Projects</h4>
+            </div>
+
+            <div class="painthomebrands-slider">
+                <div class="painthomebrands-track">
+                    <div class="painthomebrands-item"><img src="assets/brand-logos/1.png" alt="Asian Paints"></div>
+                    <div class="painthomebrands-item"><img src="assets/brand-logos/2.png" alt="Birla Opus"></div>
+                    <div class="painthomebrands-item"><img src="assets/brand-logos/Kajaria.png" alt="Berger Paints">
+                    </div>
+                    <div class="painthomebrands-item"><img src="assets/brand-logos/3.png" alt="Nippon"></div>
+                    <div class="painthomebrands-item"><img src="assets/brand-logos/4.png" alt="Indigo Paints">
+                    </div>
+                    <div class="painthomebrands-item"><img src="assets/brand-logos/5.png" alt="Nerolac"></div>
+                    <div class="painthomebrands-item"><img src="assets/brand-logos/6.png" alt="Dulux"></div>
+                    <div class="painthomebrands-item"><img src="assets/brand-logos/7.png" alt="Nexon"></div>
+                    <div class="painthomebrands-item"><img src="assets/brand-logos/8.png" alt="Birla White"></div>
+                    <div class="painthomebrands-item"><img src="assets/brand-logos/9.png" alt="Esdee"></div>
+                    <div class="painthomebrands-item"><img src="assets/brand-logos/10.png" alt="Eagle"></div>
+                    <div class="painthomebrands-item"><img src="assets/brand-logos/11.png" alt="Dr Fixit"></div>
+                    <div class="painthomebrands-item"><img src="assets/brand-logos/12.png" alt="MRF"></div>
+                    <div class="painthomebrands-item"><img src="assets/brand-logos/13.png" alt="JSW Paints"></div>
+                    <div class="painthomebrands-item"><img src="assets/brand-logos/14.png" alt="NCL"></div>
+                    <div class="painthomebrands-item"><img src="assets/brand-logos/15.png" alt="JK"></div>
+                    <div class="painthomebrands-item"><img src="assets/brand-logos/16.png" alt="Asian Paints"></div>
+                    <div class="painthomebrands-item"><img src="assets/brand-logos/17.png" alt="Asian Paints WT"></div>
+                    <div class="painthomebrands-item"><img src="assets/brand-logos/18.png" alt="Dr Fixit"></div>
+                    <div class="painthomebrands-item"><img src="assets/brand-logos/19.png" alt="MRF"></div>
+                    <div class="painthomebrands-item"><img src="assets/brand-logos/20.png" alt="JSW Paints"></div>
+                    <div class="painthomebrands-item"><img src="assets/brand-logos/21.png" alt="NCL"></div>
+                    <div class="painthomebrands-item"><img src="assets/brand-logos/22.png" alt="JK"></div>
+                    <div class="painthomebrands-item"><img src="assets/brand-logos/23.png" alt="Asian Paints"></div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
 
     <section class="rn-whychoose py-5 text-center">
         <div class="container">
@@ -361,7 +419,7 @@
                     <div class="rn-whychoose-icon me-3">
                         <i class="fas fa-user-tie"></i>
                     </div>
-                    <p class="rn-whychoose-text">Dedicated project manager</p>
+                    <p class="rn-whychoose-text">Prasparent costing</p>
                 </div>
                 <div class="col-6 col-md-4 d-flex align-items-start">
                     <div class="rn-whychoose-icon me-3">
@@ -385,104 +443,74 @@
         </div>
     </section>
 
-    <section class="rn-services pt-5">
-        <div class="container text-center">
-            <p class="rn-services-subtitle mb-1">OUR TEAM</p>
-            <h2 class="rn-services-title mb-3">Talented Minds Behind Our Projects</h2>
-            <p class="rn-services-desc mb-5">
+    <section class="rn-team pt-5 pb-5">
+        <div class="container">
+            <p class="rn-team-subtitle text-center mb-1">OUR TEAM</p>
+            <h2 class="rn-team-title text-center mb-3">Talented Minds Behind Our Projects</h2>
+            <p class="rn-team-desc text-center mb-5">
                 We deliver quality work on time with full transparency and care. Our expert team, clear pricing, and
-                trusted process set us apart. Transparent costing
+                trusted process set us apart.
             </p>
 
-            <div class="row g-4 justify-content-center">
-                <!-- Service Card 1 -->
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <div class="rn-service-card text-center h-100">
-                        <img src="assets/teams-1.jpeg" alt="Residential Projects" class="img-fluid mb-2">
-                        <h5 class="rn-service-title">Gada Raghu Ramakrishna Prasad</h5>
+            <div class="row g-4">
+                <!-- Team Member 1 -->
+                <div class="col-md-6">
+                    <div class="rn-team-card-wrapper">
+                        <div class="row g-0">
+                            <div class="col-md-5">
+                                <img src="assets/teams-1.jpeg" alt="Gada Raghu Ramakrishna Prasad"
+                                    class="img-fluid team-img">
+                            </div>
+                            <div class="col-md-7">
+                                <div class="rn-team-info">
+                                    <h4 class="rn-team-name">Gada Raghu Ramakrishna Prasad</h4>
+                                    <p class="rn-team-role">Founder</p>
+                                    <p class="rn-team-bio">
+                                        A veteran in construction project
+                                        management with over 20 years of hands-on
+                                        experience founded Raghunayaka Nirman
+                                        with the goal of delivering honest, high-quality
+                                        construction work. He continues to guide the
+                                        company with his expertise and values
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <!-- Service Card 2 -->
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <div class="rn-service-card text-center h-100">
-                        <img src="assets/1.png" alt="Interior Design & Execution" class="img-fluid mb-2">
-                        <h5 class="rn-service-title">Siva Goda</h5>
-                    </div>
-                </div>
-
-                <!-- Service Card 3 -->
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <div class="rn-service-card text-center h-100">
-                        <img src="assets/2.png" alt="Commercial Construction" class="img-fluid mb-2">
-                        <h5 class="rn-service-title">
-                            Alluri Srinivas Rao
-                        </h5>
-                    </div>
-                </div>
-
-                <!-- Service Card 4 -->
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <div class="rn-service-card text-center h-100">
-                        <img src="assets/teams-4.png" alt="Institutional Projects" class="img-fluid mb-2">
-                        <h5 class="rn-service-title">Tammineni Harikrishna</h5>
+                <!-- Team Member 2 -->
+                <div class="col-md-6">
+                    <div class="rn-team-card-wrapper">
+                        <div class="row g-0">
+                            <div class="col-md-5">
+                                <img src="assets/1.png" alt="Siva Goda" class="img-fluid team-img">
+                            </div>
+                            <div class="col-md-7">
+                                <div class="rn-team-info">
+                                    <h4 class="rn-team-name">Siva Goda</h4>
+                                    <p class="rn-team-role">Business Head</p>
+                                    <p class="rn-team-bio">
+                                        An MBA graduate with experience in operations
+                                        and management, brings a fresh perspective
+                                        and leadership to the firm, Mr. Siva oversees
+                                        project planning, execution, and business
+                                        development with a strong focus on
+                                        professionalism, timely delivey and quality
+                                        standards. Mr. Siva represents the next
+                                        generation of leadership at RN
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="rn-services py-5">
-        <div class="container text-center">
-            <p class="rn-services-subtitle mb-1">OUR PROJECTS</p>
-            <h2 class="rn-services-title mb-3">OUR CONSTRUCTION SERVICES</h2>
-            <p class="rn-services-desc mb-5">
-                We deliver quality work on time with full transparency and care. Our expert team, clear pricing,
-                and trusted process set us apart. Transparent costing
-            </p>
 
-            <div class="row g-4 justify-content-center">
-                <!-- Service Card 1 -->
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <div class="rn-service-card text-center h-100">
-                        <img src="assets/Chalasani Towers.jpeg" alt="Residential Projects" class="img-fluid mb-2">
-                        <h5 class="rn-service-title">Chalasani Towers</h5>
-                    </div>
-                </div>
 
-                <!-- Service Card 2 -->
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <div class="rn-service-card text-center h-100">
-                        <img src="assets/Ramchandra Residency.jpeg" alt="Interior Design & Execution" class="img-fluid mb-2">
-                        <h5 class="rn-service-title">Ramchandra Residency</h5>
-                    </div>
-                </div>
-
-                <!-- Service Card 3 -->
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <div class="rn-service-card text-center h-100">
-                        <img src="assets/Apple Homes.jpeg" alt="Commercial Construction" class="img-fluid mb-2">
-                        <h5 class="rn-service-title">
-                            Apple Homes
-                        </h5>
-                    </div>
-                </div>
-
-                <!-- Service Card 4 -->
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <div class="rn-service-card text-center h-100">
-                        <img src="assets/Raghurama Elite.jpeg" alt="Institutional Projects" class="img-fluid mb-2">
-                        <h5 class="rn-service-title">Raghurama Elite</h5>
-                    </div>
-                </div>
-            </div>
-
-            <!-- View More Button -->
-            <div class="mt-4">
-                <a href="complted.html" class="btn px-4 py-2 rn-services-btn">VIEW MORE</a>
-            </div>
-        </div>
-    </section>
 
     <footer class="rn-footer text-white pt-5 pb-3">
         <div class="container">
@@ -491,9 +519,9 @@
                 <!-- About Us -->
                 <div class="col-md-3 col-sm-6">
                     <div class="rn-footer-about">
-                        <img src="assets/white-rn.png" alt="Logo" class="mb-3" style="max-width: 150px;">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard dummy.</p>
+                        <img src="assets/RN-1.png" alt="Logo" class="mb-3" style="max-width: 180px;">
+                        <p>Raghunayaka Nirman, based in Vijayawada & Eluru, offers quality construction solutions across
+                            Andhra Pradesh, specializing in residential, commercial, and infrastructure projects.</p>
                     </div>
                 </div>
 
@@ -539,9 +567,21 @@
                         <li><i class="bi bi-envelope-fill text-white me-2"></i> Contact@Raghunayaka.in</li>
                     </ul>
                     <div class="rn-footer-social mt-3">
-                        <a href="#" class="me-2 text-white"><i class="bi bi-instagram"></i></a>
-                        <a href="#" class="me-2 text-white"><i class="bi bi-whatsapp"></i></a>
-                        <a href="#" class="text-white"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="me-2">
+                            <img src="assets/instagram.png" alt="Instagram" class="rn-footer-social-icon">
+                        </a>
+                        <a href="#" class="me-2">
+                            <img src="assets/whatsapp.png" alt="WhatsApp" class="rn-footer-social-icon">
+                        </a>
+                        <a href="#">
+                            <img src="assets/facebook.png" alt="Facebook" class="rn-footer-social-icon">
+                        </a>
+                        <a href="#">
+                            <img src="assets/youtube.png" alt="Youtube" class="rn-footer-social-icon">
+                        </a>
+                        <a href="#">
+                            <img src="assets/linkedin.png" alt="LinkedIn" class="rn-footer-social-icon">
+                        </a>
                     </div>
                 </div>
 

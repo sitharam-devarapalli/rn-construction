@@ -22,14 +22,6 @@
   });
 
 
-//   home page review section js 
-  const myCarousel = document.querySelector('#testimonialCarousel');
-  const carousel = new bootstrap.Carousel(myCarousel, {
-    interval: 5000, // 5 seconds
-    ride: 'carousel'
-  });
-
-
   // home page header drop down js 
   document.addEventListener('DOMContentLoaded', function () {
     const dropdown = document.querySelector('.dropdown');
@@ -46,3 +38,6 @@
       dropdownMenu.hide();
     });
   });
+
+
+
