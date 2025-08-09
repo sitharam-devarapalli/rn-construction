@@ -22,7 +22,7 @@ const serviceData = {
         "services": [
             "Schools & Colleges construction",
             "Hospitals & Clinics construction",
-            "Government Buildings & Offices", 
+            "Government Buildings & Offices",
             "Community Halls & Training Centers",
             "Hostels & Staff Quarters",
             "Auditoriums and campus planning",
@@ -49,17 +49,35 @@ const serviceData = {
 
 
     "pile-foundation-works": {
-        "title": "Piling Works",
+        "title": "Piling & Foundation Works",
         "image": "assets/Piling.jpg",
-        "description1": "We provide all types of piling services needed for buildings, bridges, roads, and industrial structures:",
+        "description1": "We provide end-to-end piling and foundation solutions in collaboration with DNVPAR Piling Works — a specialized foundation engineering company based in Eluru, established in 2019. Our services cater to buildings, bridges, industrial structures, and major infrastructure projects.",
+        "description2": "DNVPAR is supported and promoted by Raghunayaka Nirman through strategic collaboration and joint execution, managed by our extended team. They bring expert teams, advanced equipment, and extensive experience in piling execution.",
         "services": [
-            "DMC and Bored Piles – Deep foundations using rotary rigs",
-            "Cast-in-Situ Piles – Concrete poured directly into drilled holes",
-            "Auger Piles & Under-Reamed Piles – For low to medium load-bearing structures",
-            "Pile Testing – Static, dynamic, and integrity testing",
-            "Sheet Piling & Soil Stabilization – For retaining walls and weak ground"
+            "Bored Cast-in-situ Piles (450mm to 1500mm)",
+            "Under-reamed Piles (225mm to 450mm)",
+            "Diaphragm Walls",
+            "RCC Compaction Bored Piles",
+            "Stone Columns / Sand Piles / Band Drains",
+            "Sheet Piling – Driven and Installed",
+            "Static & Dynamic Load Testing",
+            "Pile Integrity Testing"
         ],
+        "equipment": [
+            "8 Hydraulic Rotary Rigs (SANY & XCMG)",
+            "2 Tractor-mounted Rigs",
+            "Tremie Pipes, Drilling Tools, Welding Units",
+            "Experienced on-ground piling crew"
+        ],
+        "recentProjects": [
+            "Machilipatnam Port – Megha Engineering",
+            "Greenfield Highway (Periyapalem) – S.S.Constructions",
+            "Talcher Fertilizers, Odisha – JPW & Dee Vee",
+            "Vijayawada ROB & NH16 – Megha Engineering"
+        ],
+        "contact": "If your project requires professional pile foundation solutions, we can connect you directly with the DNVPAR team and support you throughout the execution."
     },
+
 
 
     // "interior-fit-outs": {
