@@ -41,7 +41,7 @@
         <div class="container-fluid">
             <!-- Logo -->
             <a class="rn-logo d-flex align-items-center text-decoration-none" href="#">
-                <img src="assets/RN Logo-1.png" alt="Logo" style="height: 60px;" class="me-2" />
+                <img src="assets/RN Logo-1.jpeg" alt="Logo" style="height: 60px;" class="me-2" />
             </a>
 
             <!-- Toggler (Mobile View) -->
@@ -97,8 +97,7 @@
                     </div>
                 </div>
 
-                <!-- Slide 2 -->
-                <div class="carousel-item">
+                <!-- <div class="carousel-item">
                     <div class="carousel-bg" style="background-image: url('assets/sliders-2.jpg');">
                         <div class="carousel-overlay">
                             <p class="carousel-subtitle">MODERN INFRASTRUCTURE</p>
@@ -111,7 +110,6 @@
                     </div>
                 </div>
 
-                <!-- Slide 3 -->
                 <div class="carousel-item">
                     <div class="carousel-bg" style="background-image: url('assets/sliders-3.jpg');">
                         <div class="carousel-overlay">
@@ -123,7 +121,7 @@
                             </p>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
             </div>
         </div>
@@ -135,24 +133,34 @@
     </div>
 
     <section class="rn-homebanner pt-5">
-        <div class="rn-homebanner-left">
-            <div class="rn-homebanner-content">
-                <h2 class="rn-homebanner-title">WHO WE ARE ?</h2>
-                <p class="rn-homebanner-desc">
-                    At Raghunayaka Nirman, we are committed to building lasting structures and long-term relationships.
-                    Based in Vijayawada & Eluru we are a multi-disciplinary construction company offering comprehensive
-                    solutions for residential, commercial, industrial, infrastructural and institutional projects across
-                    Andhra Pradesh
-                </p>
-                <h5>Experience</h5>
-                <p class="rn-homebanner-desc">With over 2 decades of proven expertise, we’ve earned a reputation for
-                    delivering quality construction with precision, professionalism, and timely execution.</p>
+        <div class="container">
+            <div class="rn-homebanner-row">
+                <!-- Left Side: Content -->
+                <div class="rn-homebanner-left">
+                    <div class="rn-homebanner-content">
+                        <h2 class="rn-homebanner-title">WHO WE ARE ?</h2>
+                        <p class="rn-homebanner-desc">
+                            At Raghunayaka Nirman, we are committed to building lasting structures and long-term
+                            relationships. Based in Vijayawada & Eluru we are a multi-disciplinary construction company
+                            offering comprehensive solutions for residential, commercial, industrial, infrastructural
+                            and institutional projects across Andhra Pradesh
+                        </p>
+                        <h5 class="rn-homebanner-subtitle">Experience</h5>
+                        <p class="rn-homebanner-desc">
+                            With over 2 decades of proven expertise, we’ve earned a reputation for delivering quality
+                            construction with precision, professionalism, and timely execution.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Right Side: Image -->
+                <div class="rn-homebanner-right">
+                    <img src="/assets/home-banner-2.png" class="rn-homebanner-image" alt="Company Image">
+                </div>
             </div>
         </div>
-        <div class="rn-homebanner-right">
-            <img src="/assets/home-banner-2.jpg" class="rn-homebanner-image" alt="Right Image">
-        </div>
     </section>
+
 
     <section class="home-services pt-5">
         <div class="container text-center">
@@ -162,109 +170,93 @@
                 We offer complete residential construction services tailored to your needs.
             </p>
 
-            <div id="servicesCarousel" class="carousel slide">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="row">
-                            <!-- Card 1 -->
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="home-service-card text-center h-100">
-                                    <img src="assets/Residential Projects.jpg" alt="Residential Projects"
-                                        class="img-fluid mb-2">
-                                    <h5 class="home-service-title">Residential Projects</h5>
-                                </div>
-                            </div>
-                            <!-- Card 2 -->
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="home-service-card text-center h-100">
-                                    <img src="assets/Commercial Construction.jpg" alt="Interior Design & Execution"
-                                        class="img-fluid mb-2">
-                                    <h5 class="home-service-title">Commercial Construction</h5>
-                                </div>
-                            </div>
-                            <!-- Card 3 -->
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="home-service-card text-center h-100">
-                                    <img src="assets/Institutional Projects.jpg" alt="Commercial Construction"
-                                        class="img-fluid mb-2">
-                                    <h5 class="home-service-title">Institutional Projects</h5>
-                                </div>
-                            </div>
-                            <!-- Card 4 -->
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="home-service-card text-center h-100">
-                                    <img src="assets/Industrial Projects.jpg" alt="Institutional Projects"
-                                        class="img-fluid mb-2">
-                                    <h5 class="home-service-title">Industrial Projects</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="position-relative">
+                <!-- Custom Arrows -->
+                <button class="carousel-control-prev custom-arrow" id="prevBtn">
+                    <i class="arrow-left"></i>
+                </button>
+                <button class="carousel-control-next custom-arrow" id="nextBtn">
+                    <i class="arrow-right"></i>
+                </button>
 
-                    <!-- Second Slide with Extra Cards -->
-                    <div class="carousel-item">
-                        <div class="row">
-                            <!-- Card 5 -->
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="home-service-card text-center h-100">
-                                    <img src="assets/Turnkey Projects.jpg" alt="Industrial Works"
-                                        class="img-fluid mb-2">
-                                    <h5 class="home-service-title">Turnkey Projects</h5>
-                                </div>
-                            </div>
-                            <!-- Card 6 -->
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="home-service-card text-center h-100">
-                                    <img src="assets/Joint Development & Site Partnerships.jpg" alt="Piling Works"
-                                        class="img-fluid mb-2">
-                                    <h5 class="home-service-title">Joint Dev & Site Partnerships</h5>
-                                </div>
-                            </div>
-                            <!-- Card 7 -->
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="home-service-card text-center h-100">
-                                    <img src="assets/Interior Design & Execution.jpg" alt="Steel Structure Works"
-                                        class="img-fluid mb-2">
-                                    <h5 class="home-service-title">Interior Design & Execution</h5>
-                                </div>
-                            </div>
-                            <!-- Card 8 -->
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="home-service-card text-center h-100">
-                                    <img src="assets/Piling Works.jpg" alt="Maintenance Services"
-                                        class="img-fluid mb-2">
-                                    <h5 class="home-service-title">Piling Works</h5>
-                                </div>
+                <div class="overflow-hidden">
+                    <div class="row flex-nowrap transition" id="serviceCardsRow">
+                        <!-- Card 1 -->
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="home-service-card text-center h-100">
+                                <img src="assets/Residential Projects.jpg" alt="Residential Projects"
+                                    class="img-fluid mb-2">
+                                <h5 class="home-service-title">Residential Projects</h5>
                             </div>
                         </div>
-                    </div>
-                    <!-- third Slide with Extra Cards -->
-                    <div class="carousel-item">
-                        <div class="row">
-                            <!-- Card 9 -->
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="home-service-card text-center h-100">
-                                    <img src="assets/Civil & Infrastructure Works.jpg" alt="Industrial Works"
-                                        class="img-fluid mb-2">
-                                    <h5 class="home-service-title">Civil & Infrastructure Works</h5>
-                                </div>
+                        <!-- Card 2 -->
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="home-service-card text-center h-100">
+                                <img src="assets/Commercial Construction.jpg" alt="Commercial Construction"
+                                    class="img-fluid mb-2">
+                                <h5 class="home-service-title">Commercial Construction</h5>
+                            </div>
+                        </div>
+                        <!-- Card 3 -->
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="home-service-card text-center h-100">
+                                <img src="assets/Institutional Projects.jpg" alt="Institutional Projects"
+                                    class="img-fluid mb-2">
+                                <h5 class="home-service-title">Institutional Projects</h5>
+                            </div>
+                        </div>
+                        <!-- Card 4 -->
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="home-service-card text-center h-100">
+                                <img src="assets/Industrial Projects.jpg" alt="Industrial Projects"
+                                    class="img-fluid mb-2">
+                                <h5 class="home-service-title">Industrial Projects</h5>
+                            </div>
+                        </div>
+                        <!-- Card 5 -->
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="home-service-card text-center h-100">
+                                <img src="assets/Turnkey Projects.jpg" alt="Turnkey Projects" class="img-fluid mb-2">
+                                <h5 class="home-service-title">Turnkey Projects</h5>
+                            </div>
+                        </div>
+                        <!-- Card 6 -->
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="home-service-card text-center h-100">
+                                <img src="assets/Joint Development & Site Partnerships.jpg"
+                                    alt="Joint Dev & Site Partnerships" class="img-fluid mb-2">
+                                <h5 class="home-service-title">Joint Dev & Site Partnerships</h5>
+                            </div>
+                        </div>
+                        <!-- Card 7 -->
+                        <!-- <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="home-service-card text-center h-100">
+                                <img src="assets/Interior Design & Execution.jpg" alt="Interior Design & Execution"
+                                    class="img-fluid mb-2">
+                                <h5 class="home-service-title">Interior Design & Execution</h5>
+                            </div>
+                        </div> -->
+                        <!-- Card 8 -->
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="home-service-card text-center h-100">
+                                <img src="assets/Piling Works.jpg" alt="Piling Works" class="img-fluid mb-2">
+                                <h5 class="home-service-title">Piling Works</h5>
+                            </div>
+                        </div>
+                        <!-- Card 9 -->
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="home-service-card text-center h-100">
+                                <img src="assets/Civil & Infrastructure Works.jpg" alt="Civil & Infrastructure Works"
+                                    class="img-fluid mb-2">
+                                <h5 class="home-service-title">Civil & Infrastructure Works</h5>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <!-- Carousel Controls -->
-                <button class="carousel-control-prev custom-arrow" type="button" data-bs-target="#servicesCarousel"
-                    data-bs-slide="prev">
-                    <i class="arrow-left"></i>
-                </button>
-                <button class="carousel-control-next custom-arrow" type="button" data-bs-target="#servicesCarousel"
-                    data-bs-slide="next">
-                    <i class="arrow-right"></i>
-                </button>
             </div>
         </div>
     </section>
+
 
     <section class="rn-whatwe py-5 text-center">
         <div class="container-fluid">
@@ -352,46 +344,6 @@
         </div>
     </div>
 
-    <!-- our projects code  -->
-    <!-- <div class="painthomebrands-main1">
-        <div class="container">
-            <div class="d-flex justify-content-between align-items-center mb-3">
-                <h4 class="fw-bold">Our Projects</h4>
-            </div>
-
-            <div class="painthomebrands-slider">
-                <div class="painthomebrands-track">
-                    <div class="painthomebrands-item"><img src="assets/brand-logos/1.png" alt="Asian Paints"></div>
-                    <div class="painthomebrands-item"><img src="assets/brand-logos/2.png" alt="Birla Opus"></div>
-                    <div class="painthomebrands-item"><img src="assets/brand-logos/Kajaria.png" alt="Berger Paints">
-                    </div>
-                    <div class="painthomebrands-item"><img src="assets/brand-logos/3.png" alt="Nippon"></div>
-                    <div class="painthomebrands-item"><img src="assets/brand-logos/4.png" alt="Indigo Paints">
-                    </div>
-                    <div class="painthomebrands-item"><img src="assets/brand-logos/5.png" alt="Nerolac"></div>
-                    <div class="painthomebrands-item"><img src="assets/brand-logos/6.png" alt="Dulux"></div>
-                    <div class="painthomebrands-item"><img src="assets/brand-logos/7.png" alt="Nexon"></div>
-                    <div class="painthomebrands-item"><img src="assets/brand-logos/8.png" alt="Birla White"></div>
-                    <div class="painthomebrands-item"><img src="assets/brand-logos/9.png" alt="Esdee"></div>
-                    <div class="painthomebrands-item"><img src="assets/brand-logos/10.png" alt="Eagle"></div>
-                    <div class="painthomebrands-item"><img src="assets/brand-logos/11.png" alt="Dr Fixit"></div>
-                    <div class="painthomebrands-item"><img src="assets/brand-logos/12.png" alt="MRF"></div>
-                    <div class="painthomebrands-item"><img src="assets/brand-logos/13.png" alt="JSW Paints"></div>
-                    <div class="painthomebrands-item"><img src="assets/brand-logos/14.png" alt="NCL"></div>
-                    <div class="painthomebrands-item"><img src="assets/brand-logos/15.png" alt="JK"></div>
-                    <div class="painthomebrands-item"><img src="assets/brand-logos/16.png" alt="Asian Paints"></div>
-                    <div class="painthomebrands-item"><img src="assets/brand-logos/17.png" alt="Asian Paints WT"></div>
-                    <div class="painthomebrands-item"><img src="assets/brand-logos/18.png" alt="Dr Fixit"></div>
-                    <div class="painthomebrands-item"><img src="assets/brand-logos/19.png" alt="MRF"></div>
-                    <div class="painthomebrands-item"><img src="assets/brand-logos/20.png" alt="JSW Paints"></div>
-                    <div class="painthomebrands-item"><img src="assets/brand-logos/21.png" alt="NCL"></div>
-                    <div class="painthomebrands-item"><img src="assets/brand-logos/22.png" alt="JK"></div>
-                    <div class="painthomebrands-item"><img src="assets/brand-logos/23.png" alt="Asian Paints"></div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
 
     <section class="rn-whychoose py-5 text-center">
         <div class="container">
@@ -443,13 +395,43 @@
         </div>
     </section>
 
+
+    <!-- our projects code  -->
+    <div class="painthomebrands-main1">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <h4 class="fw-bold">Our Projects</h4>
+            </div>
+
+            <div class="painthomebrands-slider">
+                <div class="painthomebrands-track">
+                    <div class="painthomebrands-item"><img src="assets/rn-costumer-logo/1.png" alt="Asian Paints"></div>
+                    <div class="painthomebrands-item"><img src="assets/rn-costumer-logo/2.png" alt="Birla Opus"></div>
+                    <div class="painthomebrands-item"><img src="assets/rn-costumer-logo/3.png" alt="Berger Paints">
+                    </div>
+                    <div class="painthomebrands-item"><img src="assets/rn-costumer-logo/4.png" alt="Nippon"></div>
+                    <div class="painthomebrands-item"><img src="assets/rn-costumer-logo/5.png" alt="Indigo Paints">
+                    </div>
+                    <div class="painthomebrands-item"><img src="assets/rn-costumer-logo/6.png" alt="Nerolac"></div>
+                    <div class="painthomebrands-item"><img src="assets/rn-costumer-logo/7.png" alt="Dulux"></div>
+                    <div class="painthomebrands-item"><img src="assets/rn-costumer-logo/8.png" alt="Nexon"></div>
+                    <div class="painthomebrands-item"><img src="assets/rn-costumer-logo/9.png" alt="Birla White"></div>
+                    <div class="painthomebrands-item"><img src="assets/rn-costumer-logo/10.png" alt="Esdee"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <section class="rn-team pt-5 pb-5">
         <div class="container">
             <p class="rn-team-subtitle text-center mb-1">OUR TEAM</p>
-            <h2 class="rn-team-title text-center mb-3">Talented Minds Behind Our Projects</h2>
+            <h2 class="rn-team-title text-center mb-3">Dedicated Professionals</h2>
             <p class="rn-team-desc text-center mb-5">
-                We deliver quality work on time with full transparency and care. Our expert team, clear pricing, and
-                trusted process set us apart.
+                We are backed by a strong and experienced team of professionals, including engineers, site supervisors,
+                and skilled workers. Our team works together with dedication to ensure every project is built with
+                quality,
+                safety, and on-time delivery
             </p>
 
             <div class="row g-4">
@@ -598,6 +580,73 @@
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/index.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const row = document.getElementById("serviceCardsRow");
+            const cards = row.querySelectorAll(".col-lg-3");
+            const totalCards = cards.length;
+
+            let visibleCards = getVisibleCards();
+            let currentIndex = visibleCards;
+            let cardWidth = cards[0].offsetWidth;
+
+            // Clone first 'visibleCards' to end for smooth infinite loop
+            for (let i = 0; i < visibleCards; i++) {
+                const clone = cards[i].cloneNode(true);
+                row.appendChild(clone);
+            }
+
+            function getVisibleCards() {
+                if (window.innerWidth < 576) return 1;
+                if (window.innerWidth < 992) return 2;
+                return 4;
+            }
+
+            function updateCardWidth() {
+                cardWidth = row.querySelector(".col-lg-3").offsetWidth;
+            }
+
+            function updateTransform() {
+                row.style.transition = 'transform 0.5s ease-in-out';
+                row.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
+            }
+
+            document.getElementById("nextBtn").addEventListener("click", () => {
+                if (currentIndex >= totalCards) {
+                    row.style.transition = 'none'; // Jump instantly
+                    currentIndex = visibleCards - 1;
+                    row.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
+                    // Force reflow
+                    void row.offsetWidth;
+                }
+
+                currentIndex++;
+                updateTransform();
+            });
+
+            document.getElementById("prevBtn").addEventListener("click", () => {
+                if (currentIndex <= 0) {
+                    row.style.transition = 'none';
+                    currentIndex = totalCards;
+                    row.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
+                    void row.offsetWidth;
+                }
+
+                currentIndex--;
+                updateTransform();
+            });
+
+            window.addEventListener("resize", () => {
+                visibleCards = getVisibleCards();
+                updateCardWidth();
+                updateTransform();
+            });
+
+            // Init
+            updateCardWidth();
+            updateTransform();
+        });
+    </script>
 </body>
 
 </html>

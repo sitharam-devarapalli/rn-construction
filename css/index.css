@@ -553,22 +553,33 @@
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
 }
 
-/* Remove Bootstrap default icons */
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    display: none;
+#serviceCardsRow {
+    transition: transform 0.5s ease-in-out;
+    will-change: transform;
 }
 
-/* Common Arrow Button Styles */
+.transition {
+    transition: transform 0.5s ease-in-out;
+}
+
 .custom-arrow {
     width: 40px;
     height: 40px;
     background-color: #000;
     border-radius: 50%;
+    position: absolute;
     top: 50%;
     transform: translateY(-50%);
     opacity: 1;
     z-index: 10;
+}
+
+.carousel-control-prev {
+    left: -20px;
+}
+
+.carousel-control-next {
+    right: -20px;
 }
 
 .custom-arrow i {
@@ -583,31 +594,19 @@
     transform: translate(-70%, -50%) rotate(135deg);
 }
 
-/* Left Arrow Rotate */
 .carousel-control-prev i {
     transform: translate(-30%, -50%) rotate(230deg);
 }
 
-/* Right Arrow Rotate */
 .carousel-control-next i {
     transform: translate(-50%, -50%) rotate(45deg);
 }
 
-/* Hover Effect */
 .custom-arrow:hover {
     background-color: #f4aa1d;
     cursor: pointer;
 }
 
-.carousel-control-prev {
-    left: -20px;
-    /* Adjust as per design */
-}
-
-.carousel-control-next {
-    right: -20px;
-    /* Adjust as per design */
-}
 
 /* Tablet View */
 @media (max-width: 991.98px) {
@@ -754,43 +753,30 @@
 
 /* home banner section css  */
 .rn-homebanner {
+    padding: 60px 0;
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
+    background: #fff;
+}
+
+.rn-homebanner .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.rn-homebanner-row {
     display: flex;
     flex-wrap: wrap;
-}
-
-/* Left side (with background image and overlay) */
-.rn-homebanner-left {
-    background-image: url('/assets/home-banner-1.jpg');
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    flex: 1.5;
-    min-height: 300px;
-    display: flex;
     align-items: center;
-    justify-content: center;
+    gap: 30px;
 }
 
-/* Black gradient overlay at the top */
-.rn-homebanner-left::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
-    /* background: #000; */
-    z-index: 1;
+/* Left side content */
+.rn-homebanner-left {
+    flex: 1;
 }
 
-/* Text content */
 .rn-homebanner-content {
-    position: relative;
-    z-index: 2;
-    color: #fff;
-    padding: 0px;
-    max-width: 700px;
+    color: #222;
 }
 
 .rn-homebanner-title {
@@ -798,35 +784,36 @@
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.rn-homebanner-subtitle {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 8px;
 }
 
 .rn-homebanner-desc {
     font-size: 16px;
     line-height: 1.8;
-    color: #ddd;
-    margin-top: 15px;
-    text-align: start;
+    color: #555;
+    margin-bottom: 12px;
 }
 
 /* Right side image */
 .rn-homebanner-right {
     flex: 1;
-    min-height: 300px;
-    overflow: hidden;
-    display: flex;
-    align-items: end;
-    /* vertical center */
-    justify-content: end;
-    /* horizontal center */
 }
 
 .rn-homebanner-image {
-    height: 100%;
     width: 100%;
+    height: auto;
+    border-radius: 8px;
     object-fit: cover;
 }
 
-/* Responsive Tablet */
+/* Tablet */
 @media (max-width: 991.98px) {
     .rn-homebanner-title {
         font-size: 28px;
@@ -835,38 +822,26 @@
     .rn-homebanner-desc {
         font-size: 15px;
     }
-
-    .rn-homebanner-content {
-        padding: 40px;
-    }
 }
 
-/* Responsive Mobile */
+/* Mobile */
 @media (max-width: 575.98px) {
-    .rn-homebanner {
+    .rn-homebanner-row {
         flex-direction: column;
-    }
-
-    .rn-homebanner-left,
-    .rn-homebanner-right {
-        min-height: 300px;
-    }
-
-    .rn-homebanner-content {
-        padding: 30px 20px;
-        text-align: center;
     }
 
     .rn-homebanner-title {
         font-size: 24px;
+        text-align: center;
     }
 
     .rn-homebanner-desc {
         font-size: 14px;
+        text-align: center;
     }
 
-    .rn-homebanner-image {
-        min-height: 200px;
+    .rn-homebanner-subtitle {
+        text-align: center;
     }
 }
 
@@ -1991,7 +1966,7 @@
 
 /* === Responsive === */
 @media (max-width: 991px) {
-    .certification-title-alt {
+    .certification-title-alt { 
         font-size: 30px;
     }
     .cert-box-content h5,

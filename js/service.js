@@ -50,7 +50,7 @@ const serviceData = {
 
     "pile-foundation-works": {
         "title": "Piling Works",
-        "image": "assets/service-img-7.jpg",
+        "image": "assets/Piling.jpg",
         "description1": "We provide all types of piling services needed for buildings, bridges, roads, and industrial structures:",
         "services": [
             "DMC and Bored Piles – Deep foundations using rotary rigs",
@@ -62,23 +62,23 @@ const serviceData = {
     },
 
 
-    "interior-fit-outs": {
-        "title": "Interior Design & Execution",
-        "image": "assets/service-img-6.jpg",
-        "description1": "We provide end-to-end interior solutions that are both functional and visually appealing.",
-        "services": [
-            "Modular Kitchens & Wardrobes",
-            "False Ceilings & Lighting Design",
-            "TV Units, Partitions & Storage Solutions",
-            "Bathroom & Kitchen Fittings",
-            "Color Themes, Textures & Finishes",
-            "Complete Turnkey Interiors"
-        ],
-    },
+    // "interior-fit-outs": {
+    //     "title": "Interior Design & Execution",
+    //     "image": "assets/Interior Design.jpg",
+    //     "description1": "We provide end-to-end interior solutions that are both functional and visually appealing.",
+    //     "services": [
+    //         "Modular Kitchens & Wardrobes",
+    //         "False Ceilings & Lighting Design",
+    //         "TV Units, Partitions & Storage Solutions",
+    //         "Bathroom & Kitchen Fittings",
+    //         "Color Themes, Textures & Finishes",
+    //         "Complete Turnkey Interiors"
+    //     ],
+    // },
 
     "industrial-projects": {
         "title": "Industrial Projects",
-        "image": "assets/service-img-industrial.jpg",
+        "image": "assets/services-11.jpg",
         "description1": "We provide end-to-end construction solutions for various industrial needs, including:",
         "services": [
             "Warehouses & Godowns construction",
@@ -103,7 +103,7 @@ const serviceData = {
     },
     "joint-dev": {
         "title": "Joint Development & Site Partnerships",
-        "image": "assets/service-img-5.jpg",
+        "image": "assets/Joint Development.jpg",
         "description1": "We collaborate with landowners and clients to develop their land through fair and transparent agreements.",
         "description2": "Joint Venture Construction – Share-based building partnerships Site Development for Owners – Construction done on fixed cost or profit-sharing model",
         "services": [
@@ -117,7 +117,7 @@ const serviceData = {
 
     "civil-infrastructure": {
         "title": "Civil & Infrastructure Works",
-        "image": "assets/service-img-8.jpg",
+        "image": "assets/Civil Works.jpg",
         "description1": "We take up all types of major and minor civil works with proper equipment, skilled teams, and site safety.",
         "description2": "RCC Foundations – Industrial, commercial, and heavy-duty base structures Cement Concrete Roads – Internal roads, approach roads, and site pavements",
         "services": [
