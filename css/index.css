@@ -922,14 +922,16 @@
     .rn-icon-box {
         background-color: #000;
         color: #fff;
-        width: 32px;
-        height: 32px;
+        width: 40px;
+        height: 40px;
         display: flex;
         justify-content: center;
         align-items: center;
         border-radius: 6px;
-        font-size: 16px;
+        font-size: 18px;
+        flex-shrink: 0;
     }
+
 
     @media (max-width: 767.98px) {
         .rn-whatwe-count {
@@ -2519,27 +2521,27 @@
 
     /* coming soon css  */
     /* Wrapper */
-.coming-soon-wrapper {
-  text-align: center;
-  padding: 40px;
-}
+    .coming-soon-wrapper {
+        text-align: center;
+        padding: 40px;
+    }
 
-/* Content Block */
-.coming-soon-content h1 {
-  font-size: 3.5rem;
-  color: #f39c12;
-  margin-bottom: 20px;
-}
+    /* Content Block */
+    .coming-soon-content h1 {
+        font-size: 3.5rem;
+        color: #f39c12;
+        margin-bottom: 20px;
+    }
 
-.coming-soon-content p {
-  font-size: 1.2rem;
-  margin: 10px 0;
-  color: #000000;
-}
+    .coming-soon-content p {
+        font-size: 1.2rem;
+        margin: 10px 0;
+        color: #000000;
+    }
 
-.launch-date {
-  color: #00ff99;
-  font-weight: bold;
-  margin-top: 20px;
-  font-size: 1rem;
-}
+    .launch-date {
+        color: #00ff99;
+        font-weight: bold;
+        margin-top: 20px;
+        font-size: 1rem;
+    }
