@@ -8,8 +8,6 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Lora:wght@400;500&display=swap"
         rel="stylesheet">
-
-
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
@@ -89,7 +87,7 @@
 
                 <!-- Slide 1 -->
                 <div class="carousel-item active">
-                    <div class="carousel-bg" style="background-image: url('./assets/sliders-1.jpg');">
+                    <div class="carousel-bg" style="background-image: url('./assets/slides-1.jpg');">
                         <div class="carousel-overlay">
                             <p class="carousel-subtitle">BUILDING DREAMS WITH PRECISION</p>
                             <h1 class="carousel-title">From Foundation to Finish, We Build It All</h1>
@@ -139,140 +137,114 @@
         </p>
     </div>
 
-    <section class="rn-homebanner pt-5">
+    <section class="rn-homebanner py-5">
         <div class="container">
             <div class="rn-homebanner-row">
-                <!-- Left Side: Content -->
+
+                <!-- Left Content -->
                 <div class="rn-homebanner-left">
                     <div class="rn-homebanner-content">
-                        <h2 class="rn-homebanner-title">WHO WE ARE ?</h2>
+                        <span class="home-services-subtitle mb-3">ABOUT US</span>
+                        <h2 class="rn-homebanner-title">Who We Are</h2>
                         <p class="rn-homebanner-desc">
-                            At Raghunayaka Nirman, we are committed to building lasting structures and long-term
-                            relationships. Based in Vijayawada & Eluru we are a multi-disciplinary construction company
-                            offering comprehensive solutions for residential, commercial, industrial, infrastructural
-                            and institutional projects across India
+                            At <strong>Raghunayaka Nirman</strong>, we are committed to building lasting structures
+                            and long-term relationships. Based in Vijayawada & Eluru, we offer comprehensive
+                            solutions for residential, commercial, industrial, infrastructural, and institutional
+                            projects across India.
                         </p>
                         <h5 class="rn-homebanner-subtitle">Experience</h5>
                         <p class="rn-homebanner-desc">
-                            With over 2 decades of proven expertise, we’ve earned a reputation for delivering quality
-                            construction with precision, professionalism, and timely execution.
+                            With over 2 decades of proven expertise, we’ve earned a reputation for delivering
+                            quality construction with precision, professionalism, and timely execution.
                         </p>
-
                         <a href="about.html" class="rn-btn">Read More</a>
                     </div>
                 </div>
 
-                <!-- Right Side: Image -->
+                <!-- Right Image -->
                 <div class="rn-homebanner-right">
-                    <img src="/assets/home-banner-2.png" class="rn-homebanner-image" alt="Company Image">
+                    <div class="rn-homebanner-image-wrapper">
+                        <img src="/assets/home-about-us.jpg" class="rn-homebanner-image" alt="Company Image">
+                    </div>
                 </div>
+
             </div>
         </div>
     </section>
 
 
-    <section class="home-services pt-5">
-        <div class="container text-center">
-            <p class="home-services-subtitle mb-1">OUR SERVICES</p>
-            <h2 class="home-services-title mb-3">We Build Everything</h2>
-            <p class="home-services-desc mb-5">
-                We offer complete residential construction services tailored to your needs.
-            </p>
 
-            <div class="position-relative">
-                <!-- Custom Arrows -->
-                <button class="carousel-control-prev custom-arrow" id="prevBtn">
-                    <i class="arrow-left"></i>
-                </button>
-                <button class="carousel-control-next custom-arrow" id="nextBtn">
-                    <i class="arrow-right"></i>
-                </button>
+    <section class="home-services-section py-5">
+        <div class="container">
 
-                <div class="overflow-hidden">
-                    <div class="row flex-nowrap transition" id="serviceCardsRow">
-                        <!-- Card 1 -->
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <a href="services.html?service=residential-projects" class="text-decoration-none text-dark">
-                                <div class="home-service-card text-center h-100">
-                                    <img src="assets/Residential Projects.jpg" alt="Residential Projects"
-                                        class="img-fluid mb-2">
-                                    <h5 class="home-service-title">Residential Projects</h5>
-                                </div>
-                            </a>
-                        </div>
-                        <!-- Card 2 -->
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <a href="services.html?service=commercial-projects" class="text-decoration-none text-dark">
-                                <div class="home-service-card text-center h-100">
-                                    <img src="assets/Commercial Construction.jpg" alt="Commercial Construction"
-                                        class="img-fluid mb-2">
-                                    <h5 class="home-service-title">Commercial Construction</h5>
-                                </div>
-                            </a>
-                        </div>
-                        <!-- Card 3 -->
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <a href="services.html?service=institutional-projects"
-                                class="text-decoration-none text-dark">
-                                <div class="home-service-card text-center h-100">
-                                    <img src="assets/Institutional Projects.jpg" alt="Institutional Projects"
-                                        class="img-fluid mb-2">
-                                    <h5 class="home-service-title">Institutional Projects</h5>
-                                </div>
-                            </a>
-                        </div>
-                        <!-- Card 4 -->
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <a href="services.html?service=industrial-projects" class="text-decoration-none text-dark">
-                                <div class="home-service-card text-center h-100">
-                                    <img src="assets/Industrial Projects.jpg" alt="Industrial Projects"
-                                        class="img-fluid mb-2">
-                                    <h5 class="home-service-title">Industrial Projects</h5>
-                                </div>
-                            </a>
-                        </div>
-                        <!-- Card 5 -->
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <a href="services.html?service=turnkey-projects" class="text-decoration-none text-dark">
-                                <div class="home-service-card text-center h-100">
-                                    <img src="assets/Turnkey Projects.jpg" alt="Turnkey Projects"
-                                        class="img-fluid mb-2">
-                                    <h5 class="home-service-title">Turnkey Projects</h5>
-                                </div>
-                            </a>
-                        </div>
-                        <!-- Card 6 -->
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <a href="services.html?service=joint-dev" class="text-decoration-none text-dark">
-                                <div class="home-service-card text-center h-100">
-                                    <img src="assets/Joint Development & Site Partnerships.jpg"
-                                        alt="Joint Dev & Site Partnerships" class="img-fluid mb-2">
-                                    <h5 class="home-service-title">Joint Dev & Site Partnerships</h5>
-                                </div>
-                            </a>
-                        </div>
+            <!-- Heading -->
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <div>
+                    <span class="home-services-subtitle">OUR SERVICES</span>
+                    <h2 class="home-services-title">Provide Quality Services</h2>
+                </div>
+                <div class="home-services-nav">
+                    <button class="home-services-nav-btn" id="prevBtn">&larr;</button>
+                    <button class="home-services-nav-btn" id="nextBtn">&rarr;</button>
+                </div>
+            </div>
 
-                        <!-- Card 8 -->
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <a href="services.html?service=pile-foundation-works"
-                                class="text-decoration-none text-dark">
-                                <div class="home-service-card text-center h-100">
-                                    <img src="assets/Piling Works.jpg" alt="Piling Works" class="img-fluid mb-2">
-                                    <h5 class="home-service-title">Piling Works</h5>
-                                </div>
-                            </a>
-                        </div>
-                        <!-- Card 9 -->
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <a href="services.html?service=civil-infrastructure" class="text-decoration-none text-dark">
-                                <div class="home-service-card text-center h-100">
-                                    <img src="assets/Civil & Infrastructure Works.jpg"
-                                        alt="Civil & Infrastructure Works" class="img-fluid mb-2">
-                                    <h5 class="home-service-title">Civil & Infrastructure Works</h5>
-                                </div>
-                            </a>
-                        </div>
+            <!-- Slider Wrapper -->
+            <div class="home-services-slider">
+                <div class="home-services-track">
+
+                    <!-- Service Cards -->
+                    <div class="home-services-card">
+                        <img src="assets/Residential Projects.jpg " alt="Flooring Installation"
+                            class="home-services-icon">
+                        <h5 class="home-services-name">Residential Projects</h5>
+                        <a href="#" class="home-services-link">Read More &rarr;</a>
                     </div>
+
+                    <div class="home-services-card">
+                        <img src="assets/Commercial Construction.jpg " alt="Building Architecture"
+                            class="home-services-icon">
+                        <h5 class="home-services-name">Commercial Construction</h5>
+                        <a href="#" class="home-services-link">Read More &rarr;</a>
+                    </div>
+
+                    <div class="home-services-card">
+                        <img src="assets/institutes-works.jpg " alt="Interior Design" class="home-services-icon">
+                        <h5 class="home-services-name">Institutional Projects</h5>
+                        <a href="#" class="home-services-link">Read More &rarr;</a>
+                    </div>
+
+                    <div class="home-services-card">
+                        <img src="assets/industrial-works.jpg " alt="House Renovation" class="home-services-icon">
+                        <h5 class="home-services-name">Industrial Projects</h5>
+                        <a href="#" class="home-services-link">Read More &rarr;</a>
+                    </div>
+
+                    <!-- More Cards -->
+                    <div class="home-services-card">
+                        <img src="assets/Piling Works.jpg " alt="Landscape Design" class="home-services-icon">
+                        <h5 class="home-services-name">Piling Works</h5>
+                        <a href="#" class="home-services-link">Read More &rarr;</a>
+                    </div>
+
+                    <div class="home-services-card">
+                        <img src="assets/Turnkey.jpg " alt="Turnkey Projects" class="home-services-icon">
+                        <h5 class="home-services-name">Turnkey Projects</h5>
+                        <a href="#" class="home-services-link">Read More &rarr;</a>
+                    </div>
+
+                    <div class="home-services-card">
+                        <img src="assets/partnership.jpg" alt="Painting Services" class="home-services-icon">
+                        <h5 class="home-services-name">Joint Dev & Site Partnerships</h5>
+                        <a href="#" class="home-services-link">Read More &rarr;</a>
+                    </div>
+
+                    <div class="home-services-card">
+                        <img src="assets/civil-works.jpg" alt="Painting Services" class="home-services-icon">
+                        <h5 class="home-services-name">Civil & Infrastructure Works</h5>
+                        <a href="#" class="home-services-link">Read More &rarr;</a>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -281,7 +253,8 @@
 
     <section class="rn-whatwe py-5 text-center">
         <div class="container-fluid">
-            <p class="rn-whatwe-subtitle text-uppercase text-muted mb-2">What We Do</p>
+            <span class="home-services-subtitle">WHAT WE DO</span>
+            <p class="rn-whatwe-subtitle text-uppercase text-muted mb-2"></p>
             <h2 class="rn-whatwe-title fw-bold mb-4">Our Key Highlights</h2>
 
             <div class="row py-4 rn-whatwe-highlight">
@@ -376,37 +349,37 @@
             </p>
 
             <div class="row g-4 justify-content-center rn-whychoose-points">
-                <div class="col-6 col-md-4 d-flex align-items-start">
+                <div class="col-6 col-md-4 d-flex align-items-center">
                     <div class="rn-whychoose-icon me-3">
                         <i class="fas fa-clock"></i>
                     </div>
                     <p class="rn-whychoose-text">Timely delivery</p>
                 </div>
-                <div class="col-6 col-md-4 d-flex align-items-start">
+                <div class="col-6 col-md-4 d-flex align-items-center">
                     <div class="rn-whychoose-icon me-3">
                         <i class="fas fa-check-circle"></i>
                     </div>
                     <p class="rn-whychoose-text">Quality assurance</p>
                 </div>
-                <div class="col-6 col-md-4 d-flex align-items-start">
+                <div class="col-6 col-md-4 d-flex align-items-center">
                     <div class="rn-whychoose-icon me-3">
                         <i class="fas fa-user-tie"></i>
                     </div>
                     <p class="rn-whychoose-text">Prasparent costing</p>
                 </div>
-                <div class="col-6 col-md-4 d-flex align-items-start">
+                <div class="col-6 col-md-4 d-flex align-items-center">
                     <div class="rn-whychoose-icon me-3">
                         <i class="fas fa-cogs"></i>
                     </div>
                     <p class="rn-whychoose-text">Latest equipment</p>
                 </div>
-                <div class="col-6 col-md-4 d-flex align-items-start">
+                <div class="col-6 col-md-4 d-flex align-items-center">
                     <div class="rn-whychoose-icon me-3">
                         <i class="fas fa-users-cog"></i>
                     </div>
                     <p class="rn-whychoose-text">Own technical & labour teams</p>
                 </div>
-                <div class="col-6 col-md-4 d-flex align-items-start">
+                <div class="col-6 col-md-4 d-flex align-items-center">
                     <div class="rn-whychoose-icon me-3">
                         <i class="fas fa-drafting-compass"></i>
                     </div>
@@ -462,20 +435,16 @@
                             <!-- Founder Content -->
                             <div class="col-md-7">
                                 <div class="rn-founder-info">
-                                    <p class="rn-founder-bio mb-4">
+                                    <p class="rn-founder-bio mb-4 text-start">
                                         A veteran in construction project management with over 20 years of hands-on
-                                        experience, Mr. Prasad founded Raghunayaka Nirman with the goal of delivering
-                                        honest,
-                                        high-quality construction work. He continues to guide the company with his
-                                        expertise,
-                                        values, and unwavering commitment to excellence.
+                                        experience, Raghunayaka Nirman was founded with the goal of delivering honest,
+                                        high-quality construction work. The company continues to be guided by deep
+                                        expertise, strong values, and an unwavering commitment to excellence.
                                     </p>
-                                    <blockquote class="rn-founder-quote">
+                                    <blockquote class="rn-founder-quote text-start">
                                         “At Raghunayaka Nirman, every project is more than just construction — it’s a
-                                        promise.
-                                        A promise to deliver quality, transparency, and trust, while creating spaces
-                                        that
-                                        stand the test of time.”
+                                        promise. A promise to deliver quality, transparency, and trust, while creating
+                                        spaces that stand the test of time.”
                                     </blockquote>
                                 </div>
                             </div>
@@ -522,13 +491,13 @@
                     <h5 class="rn-footer-title">Our Projects</h5>
                     <ul class="list-unstyled rn-footer-links">
                         <li><i class="bi bi-chevron-double-right text-white me-2"></i><a href="ongoing.html"
-                                class="ssl-aaa">On Going Projects</a></li>
+                                class="ssl-aaa">Ongoing Projects</a></li>
                         <li><i class="bi bi-chevron-double-right text-white me-2"></i><a href="complted.html"
                                 class="ssl-aaa">Our Past Projects</a></li>
                         <li><i class="bi bi-chevron-double-right text-white me-2"></i><a href="upcoming.html"
-                                class="ssl-aaa">Up Coming Projects</a></li>
+                                class="ssl-aaa">Upcoming Projects</a></li>
                         <li><i class="bi bi-chevron-double-right text-white me-2"></i><a href="certification.html"
-                                class="ssl-aaa">Certification</a></li>
+                                class="ssl-aaa">Specifications</a></li>
                     </ul>
                 </div>
 
@@ -577,71 +546,48 @@
     <script src="js/index.js"></script>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-            const row = document.getElementById("serviceCardsRow");
-            const cards = row.querySelectorAll(".col-lg-3");
-            const totalCards = cards.length;
+            const track = document.querySelector(".home-services-track");
+            const prevBtn = document.getElementById("prevBtn");
+            const nextBtn = document.getElementById("nextBtn");
+            const cards = document.querySelectorAll(".home-services-card");
+            const cardWidth = cards[0].offsetWidth + 20; // width + margin
+            let position = 0;
 
-            let visibleCards = getVisibleCards();
-            let currentIndex = visibleCards;
-            let cardWidth = cards[0].offsetWidth;
+            // Move to next card
+            nextBtn.addEventListener("click", () => {
+                position -= cardWidth;
+                track.style.transition = "transform 0.4s ease";
+                track.style.transform = `translateX(${position}px)`;
 
-            // Clone first 'visibleCards' to end for smooth infinite loop
-            for (let i = 0; i < visibleCards; i++) {
-                const clone = cards[i].cloneNode(true);
-                row.appendChild(clone);
-            }
-
-            function getVisibleCards() {
-                if (window.innerWidth < 576) return 1;
-                if (window.innerWidth < 992) return 2;
-                return 4;
-            }
-
-            function updateCardWidth() {
-                cardWidth = row.querySelector(".col-lg-3").offsetWidth;
-            }
-
-            function updateTransform() {
-                row.style.transition = 'transform 0.5s ease-in-out';
-                row.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
-            }
-
-            document.getElementById("nextBtn").addEventListener("click", () => {
-                if (currentIndex >= totalCards) {
-                    row.style.transition = 'none'; // Jump instantly
-                    currentIndex = visibleCards - 1;
-                    row.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
-                    // Force reflow
-                    void row.offsetWidth;
+                // If we reach the end, jump back instantly
+                if (Math.abs(position) >= cardWidth * cards.length) {
+                    setTimeout(() => {
+                        position = 0;
+                        track.style.transition = "none";
+                        track.style.transform = `translateX(${position}px)`;
+                    }, 400);
                 }
-
-                currentIndex++;
-                updateTransform();
             });
 
-            document.getElementById("prevBtn").addEventListener("click", () => {
-                if (currentIndex <= 0) {
-                    row.style.transition = 'none';
-                    currentIndex = totalCards;
-                    row.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
-                    void row.offsetWidth;
+            // Move to previous card
+            prevBtn.addEventListener("click", () => {
+                position += cardWidth;
+                track.style.transition = "transform 0.4s ease";
+                track.style.transform = `translateX(${position}px)`;
+
+                // If we go before first card, jump to end
+                if (position > 0) {
+                    setTimeout(() => {
+                        position = -cardWidth * (cards.length - 1);
+                        track.style.transition = "none";
+                        track.style.transform = `translateX(${position}px)`;
+                    }, 400);
                 }
-
-                currentIndex--;
-                updateTransform();
             });
-
-            window.addEventListener("resize", () => {
-                visibleCards = getVisibleCards();
-                updateCardWidth();
-                updateTransform();
-            });
-
-            // Init
-            updateCardWidth();
-            updateTransform();
         });
     </script>
+
+
 </body>
 
 </html>

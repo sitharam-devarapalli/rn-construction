@@ -121,7 +121,7 @@ const serviceData = {
     },
     "joint-dev": {
         "title": "Joint Development & Site Partnerships",
-        "image": "assets/Joint Development.jpg",
+        "image": "assets/partner.jpeg",
         "description1": "We collaborate with landowners and clients to develop their land through fair and transparent agreements.",
         "description2": "Joint Venture Construction – Share-based building partnerships Site Development for Owners – Construction done on fixed cost or profit-sharing model",
         "services": [

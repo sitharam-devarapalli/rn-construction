@@ -523,489 +523,429 @@
 
 
     /* our services section css  */
-    .home-services {
-        background-color: #fff;
+    .home-services-section {
+        background-color: #f9f7f1;
+        /* Light beige background */
     }
 
     .home-services-subtitle {
-        font-size: 14px;
-        letter-spacing: 2px;
-        color: #888;
-        text-transform: uppercase;
+        font-size: 0.85rem;
+        letter-spacing: 1px;
+        font-weight: 500;
+        border: 1px solid #ccc;
+        border-radius: 20px;
+        padding: 3px 12px;
+        display: inline-block;
     }
 
     .home-services-title {
-        font-size: 28px;
+        font-size: 2.5rem;
         font-weight: 700;
+        margin-top: 10px;
     }
 
-    .home-services-desc {
-        font-size: 16px;
-        max-width: 700px;
-        margin-left: auto;
-        margin-right: auto;
-        color: #333;
+    .home-services-nav {
+        display: flex;
+        gap: 10px;
     }
 
-    .home-service-card {
-        background-color: #fff;
-        border: 1px solid #eee;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-        transition: transform 0.3s ease;
-        border-radius: 0px !important;
-    }
-
-    .home-service-card:hover {
-        transform: translateY(-5px);
-    }
-
-    .home-service-title {
-        font-size: 16px;
-        font-weight: 600;
-        padding: 5px;
-    }
-
-    .home-services-btn {
-        font-size: 14px;
-        font-weight: 600;
-        text-transform: uppercase;
-        border-radius: 0;
-        background: #000;
-        color: #fff;
-        cursor: pointer !important;
-    }
-
-    .home-services-btn:hover {
-        border: 1px solid #000;
-        color: #000;
-    }
-
-    .home-service-card img {
-        height: 320px;
-        width: 100%;
-        object-fit: cover;
-        /* border-radius: 4px; */
-        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
-    }
-
-    #serviceCardsRow {
-        transition: transform 0.5s ease-in-out;
-        will-change: transform;
-    }
-
-    .transition {
-        transition: transform 0.5s ease-in-out;
-    }
-
-    .custom-arrow {
+    .home-services-nav-btn {
+        background: #fff;
+        border: none;
+        border-radius: 50%;
         width: 40px;
         height: 40px;
-        background-color: #000;
-        border-radius: 50%;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        opacity: 1;
-        z-index: 10;
-    }
-
-    .carousel-control-prev {
-        left: -20px;
-    }
-
-    .carousel-control-next {
-        right: -20px;
-    }
-
-    .custom-arrow i {
-        display: inline-block;
-        width: 12px;
-        height: 12px;
-        border-top: 2px solid #fff;
-        border-right: 2px solid #fff;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-70%, -50%) rotate(135deg);
-    }
-
-    .carousel-control-prev i {
-        transform: translate(-30%, -50%) rotate(230deg);
-    }
-
-    .carousel-control-next i {
-        transform: translate(-50%, -50%) rotate(45deg);
-    }
-
-    .custom-arrow:hover {
-        background-color: #f4aa1d;
+        font-size: 1.2rem;
         cursor: pointer;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
     }
 
-
-    /* Tablet View */
-    @media (max-width: 991.98px) {
-        .home-services-title {
-            font-size: 24px;
-        }
-
-        .home-services-desc {
-            font-size: 15px;
-        }
-
-        .home-service-title {
-            font-size: 15px;
-        }
-
-        .carousel-control-prev,
-        .carousel-control-next {
-            display: none !important;
-        }
+    .home-services-slider {
+        overflow: hidden;
+        position: relative;
     }
 
-    /* Mobile View */
-    @media (max-width: 575.98px) {
-        .home-services-title {
-            font-size: 20px;
-        }
-
-        .home-services-desc {
-            font-size: 14px;
-            padding: 0 15px;
-        }
-
-        .home-service-title {
-            font-size: 14px;
-        }
-
-        .home-services-btn {
-            font-size: 13px;
-            padding: 10px 20px;
-        }
+    .home-services-track {
+        display: flex;
+        transition: transform 0.4s ease;
     }
 
-    /* our services section css  */
-    .rn-services {
-        background-color: #fff;
+    .home-services-card {
+        flex: 0 0 25%;
+        /* 4 cards visible at once */
+        background: #fff;
+        border-radius: 10px;
+        padding: 20px;
+        margin: 0 10px;
+        transition: all 0.3s ease;
     }
 
-    .rn-services-subtitle {
-        font-size: 14px;
-        letter-spacing: 2px;
-        color: #888;
-        text-transform: uppercase;
+    .home-services-card:hover {
+        box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
     }
 
-    .rn-services-title {
-        font-size: 28px;
-        font-weight: 700;
-    }
-
-    .rn-services-desc {
-        font-size: 16px;
-        max-width: 700px;
-        margin-left: auto;
-        margin-right: auto;
-        color: #333;
-    }
-
-    .rn-service-card {
-        background-color: #fff;
-        border: 1px solid #eee;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-        transition: transform 0.3s ease;
-        border-radius: 0px !important;
-    }
-
-    .rn-service-card:hover {
-        transform: translateY(-5px);
-    }
-
-    .rn-service-title {
-        font-size: 16px;
-        font-weight: 600;
-        padding: 5px;
-    }
-
-    .rn-services-btn {
-        font-size: 14px;
-        font-weight: 600;
-        text-transform: uppercase;
-        border-radius: 0;
-        background: #000;
-        color: #fff;
-        cursor: pointer !important;
-    }
-
-    .rn-services-btn:hover {
-        border: 1px solid #000;
-        color: #000;
-    }
-
-    .rn-service-card img {
-        height: 300px;
+    .home-services-icon {
         width: 100%;
+        height: 200px;
+        margin-bottom: 20px;
         object-fit: cover;
-        /* border-radius: 4px; */
-        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
     }
 
-    /* Tablet View */
-    @media (max-width: 991.98px) {
-        .rn-services-title {
-            font-size: 24px;
+    .home-services-name {
+        font-size: 1.1rem;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+
+    .home-services-link {
+        text-decoration: none;
+        font-size: 0.85rem;
+        font-weight: 500;
+        color: #3f3d3d;
+    }
+
+    .home-services-link:hover {
+        text-decoration: underline;
+    }
+
+    /* Tablet: 2 cards visible */
+    @media (max-width: 992px) {
+        .home-services-card {
+            flex: 0 0 50%;
         }
 
-        .rn-services-desc {
-            font-size: 15px;
+        .home-services-icon {
+            height: 250px;
         }
 
-        .rn-service-title {
-            font-size: 15px;
+        .home-services-title {
+            font-size: 2rem;
         }
     }
 
-    /* Mobile View */
-    @media (max-width: 575.98px) {
-        .rn-services-title {
-            font-size: 20px;
+    /* Mobile: 1 card visible */
+    @media (max-width: 576px) {
+        .home-services-card {
+            flex: 0 0 100%;
+            padding: 15px;
         }
 
-        .rn-services-desc {
-            font-size: 14px;
-            padding: 0 15px;
+        .home-services-icon {
+            height: 200px;
         }
 
-        .rn-service-title {
-            font-size: 14px;
+        .home-services-title {
+            font-size: 1.5rem;
         }
 
-        .rn-services-btn {
-            font-size: 13px;
-            padding: 10px 20px;
+        .home-services-subtitle {
+            font-size: 0.75rem;
+            padding: 2px 10px;
+        }
+
+        .home-services-nav {
+            justify-content: center;
+            gap: 5px;
+        }
+
+        .home-services-nav-btn {
+            width: 35px;
+            height: 35px;
+            font-size: 1rem;
         }
     }
 
     /* home banner section css  */
+    /* Section Base */
     .rn-homebanner {
-        padding: 60px 0;
-        background: #fff;
-    }
-
-    .rn-homebanner .container {
-        max-width: 1200px;
-        margin: 0 auto;
+        background: linear-gradient(to right, #ffffff, #f9f9f9);
     }
 
     .rn-homebanner-row {
         display: flex;
-        flex-wrap: wrap;
         align-items: center;
-        gap: 30px;
+        gap: 40px;
+        flex-wrap: nowrap;
+        /* keep in one row */
     }
 
-    /* Left side content */
-    .rn-homebanner-left {
-        flex: 1;
-    }
-
+    /* Left Side Content */
     .rn-homebanner-content {
         color: #222;
     }
 
-    .rn-homebanner-title {
-        font-size: 32px;
-        font-weight: 700;
+    .rn-homebanner-tagline {
+        font-size: 14px;
+        letter-spacing: 2px;
+        font-weight: 600;
+        color: #ff6b00;
+        margin-bottom: 10px;
         text-transform: uppercase;
-        letter-spacing: 1px;
-        margin-bottom: 15px;
+    }
+
+    .rn-homebanner-title {
+        font-size: 36px;
+        font-weight: 800;
+        margin-bottom: 20px;
+        line-height: 1.2;
+        color: #0c1c36;
     }
 
     .rn-homebanner-subtitle {
-        font-size: 18px;
+        font-size: 20px;
         font-weight: 600;
-        margin-top: 20px;
-        margin-bottom: 8px;
+        margin-top: 25px;
+        margin-bottom: 10px;
+        color: #0c1c36;
     }
 
     .rn-homebanner-desc {
         font-size: 16px;
         line-height: 1.8;
         color: #555;
-        margin-bottom: 12px;
+        margin-bottom: 15px;
     }
 
-    /* Right side image */
-    .rn-homebanner-right {
-        flex: 1;
+    /* Button */
+    .rn-btn {
+        display: inline-block;
+        padding: 12px 28px;
+        background: #ff6b00;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 600;
+        border-radius: 8px;
+        text-decoration: none;
+        transition: all 0.3s ease;
     }
+
+    .rn-btn:hover {
+        background: #e05f00;
+        transform: translateY(-2px);
+    }
+
+.rn-homebanner-left {
+    flex: 1; /* take available space */
+    min-width: 0; /* fix flex overflow issue */
+}
+
+.rn-homebanner-right {
+    flex: 1;
+    min-width: 0;
+}
+
+/* Image Wrapper */
+.rn-homebanner-image-wrapper {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
 
     .rn-homebanner-image {
         width: 100%;
         height: auto;
-        border-radius: 8px;
         object-fit: cover;
+        transition: transform 0.5s ease;
     }
 
-    /* Tablet */
+    .rn-homebanner-image-wrapper:hover .rn-homebanner-image {
+        transform: scale(1.05);
+    }
+
+    /* Responsive */
     @media (max-width: 991.98px) {
         .rn-homebanner-title {
-            font-size: 28px;
-        }
-
-        .rn-homebanner-desc {
-            font-size: 15px;
+            font-size: 30px;
         }
     }
 
-    /* Mobile */
-    @media (max-width: 575.98px) {
+    @media (max-width: 767.98px) {
         .rn-homebanner-row {
             flex-direction: column;
         }
 
-        .rn-homebanner-title {
-            font-size: 24px;
+        .rn-homebanner-title,
+        .rn-homebanner-desc,
+        .rn-homebanner-subtitle,
+        .rn-homebanner-tagline {
             text-align: center;
         }
 
-        .rn-homebanner-desc {
-            font-size: 14px;
-            text-align: center;
-        }
-
-        .rn-homebanner-subtitle {
-            text-align: center;
+        .rn-btn {
+            display: block;
+            margin: 0 auto;
         }
     }
 
 
     /* what we do section css  */
-    .rn-whatwe-highlight {
-        background: #D4D4D4 !important;
+    /* ========== WHAT WE DO SECTION ========== */
+    .rn-whatwe {
+        background: #ffffff;
     }
 
-    .rn-whatwe-subtitle {
-        font-size: 14px;
+    .home-services-subtitle {
+        font-size: 0.85rem;
         letter-spacing: 2px;
-        color: #888;
+        font-weight: 600;
+        color: #856404;
+        background: #fff3cd;
+        padding: 4px 14px;
+        border-radius: 20px;
+        display: inline-block;
+        border: 1px solid #ffeeba;
     }
 
     .rn-whatwe-title {
-        font-size: 28px;
+        font-size: 2.2rem;
         font-weight: 700;
+        color: #2d2d2d;
+        margin-bottom: 1.5rem;
+        font-family: "Playfair Display", serif;
+    }
+
+    .rn-whatwe-highlight {
+        background: #faf8f4;
+        border-radius: 12px;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+        padding: 2rem 0;
     }
 
     .rn-whatwe-count {
-        font-size: 45px;
-        color: #000;
+        font-size: 3rem;
+        font-weight: 700;
+        color: #222;
+        margin-bottom: 5px;
+        font-family: "Playfair Display", serif;
     }
 
     .rn-whatwe-label {
-        font-size: 21px;
+        font-size: 1rem;
         font-weight: 500;
-        color: #222;
-    }
-
-    .rn-whatwe-btn {
-        font-size: 14px;
-        text-transform: uppercase;
-        border-radius: 0;
-        padding: 10px 25px;
+        color: #666;
     }
 
     .rn-whatwe-points {
-        max-width: 600px;
-        margin: 0 auto;
+        max-width: 650px;
+        margin: 2rem auto 0;
     }
 
-    .rn-icon-box {
-        background-color: #000;
-        color: #fff;
-        width: 40px;
-        height: 40px;
-        display: flex;
-        justify-content: center;
+    /* Unified, non-shrinking icon container */
+    .rn-icon-box,
+    .rn-whychoose-icon,
+    .rn-icon {
+        /* optional helper class you can add to HTML */
+        width: 48px;
+        height: 48px;
+        min-width: 48px;
+        min-height: 48px;
+        padding: 0;
+        box-sizing: border-box;
+        display: inline-flex;
+        /* use inline-flex to avoid strange flex parent behavior */
         align-items: center;
-        border-radius: 6px;
-        font-size: 18px;
+        justify-content: center;
+        border-radius: 8px;
+        background-color: #f0f0f0;
+        color: #111;
+        transition: all 0.25s ease;
         flex-shrink: 0;
+        /* prevent parent flex from shrinking it */
     }
 
-
-    @media (max-width: 767.98px) {
-        .rn-whatwe-count {
-            font-size: 32px;
-        }
-
-        .rn-whatwe-title {
-            font-size: 22px;
-        }
-
-        .rn-whatwe-label {
-            font-size: 14px;
-        }
+    /* Make sure all possible icon element types are forced to the same visible size */
+    .rn-icon-box i,
+    .rn-whychoose-icon i,
+    .rn-icon-box svg,
+    .rn-whychoose-icon svg,
+    .rn-icon-box img,
+    .rn-whychoose-icon img {
+        display: block;
+        width: 22px;
+        /* visible icon width */
+        height: 22px;
+        /* visible icon height */
+        line-height: 1;
+        font-size: 22px;
+        /* for font-awesome <i> icons */
+        margin: 0;
+        padding: 0;
+        object-fit: contain;
+        /* for <img> */
+        vertical-align: middle;
     }
 
-    /* why choose us section css  */
+    /* Hover stays same as before */
+    .rn-icon-box:hover,
+    .rn-whychoose-icon:hover {
+        background-color: #111;
+        color: #fff;
+        transform: translateY(-2px);
+    }
+
+    /* If FontAwesome inserts SVGs and another rule still overrides size,
+   use these stronger rules (only if necessary) */
+    .rn-icon-box svg,
+    .rn-whychoose-icon svg {
+        width: 22px !important;
+        height: 22px !important;
+    }
+
+    /* ========== WHY CHOOSE US SECTION ========== */
     .rn-whychoose-subtitle {
-        font-size: 14px;
+        font-size: 0.85rem;
         letter-spacing: 2px;
-        color: #888;
-
+        font-weight: 600;
+        color: #856404;
+        background: #fff3cd;
+        padding: 4px 14px;
+        border-radius: 20px;
+        display: inline-block;
+        border: 1px solid #ffeeba;
     }
 
     .rn-whychoose-title {
-        font-size: 28px;
+        font-size: 2rem;
         font-weight: 700;
-        color: #111;
+        color: #2d2d2d;
+        font-family: "Playfair Display", serif;
     }
 
     .rn-whychoose-desc {
-        font-size: 16px;
+        font-size: 1rem;
         color: #555;
         max-width: 750px;
         margin: 0 auto;
+        line-height: 1.7;
     }
 
-    .rn-whychoose-icon {
-        width: 30px;
-        height: 30px;
-        background-color: #000;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 3px;
-        font-size: 16px;
-        color: #fff;
-        flex-shrink: 0;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    }
 
     .rn-whychoose-text {
         margin: 0;
-        font-size: 15px;
-        color: #222;
+        font-size: 0.95rem;
+        color: #333;
         font-weight: 500;
     }
 
-    @media (max-width: 767.98px) {
+    /* ========== RESPONSIVE ========== */
+    @media (max-width: 768px) {
+
+        .rn-whatwe-title,
         .rn-whychoose-title {
-            font-size: 22px;
+            font-size: 1.6rem;
+        }
+
+        .rn-whatwe-count {
+            font-size: 2.2rem;
+        }
+
+        .rn-whatwe-label {
+            font-size: 0.9rem;
         }
 
         .rn-whychoose-desc {
-            font-size: 14px;
-        }
-
-        .rn-whychoose-text {
-            font-size: 14px;
-        }
-
-        .rn-whychoose-icon {
-            width: 28px;
-            height: 28px;
-            font-size: 14px;
+            font-size: 0.9rem;
         }
     }
 
@@ -1577,7 +1517,7 @@
     /* Section: Paint Home Brands */
     .painthomebrands-main1 {
         padding: 40px 0;
-        background: #D4D4D4;
+        background: #f8f7f0;
     }
 
     /* Brand Slider Container */
@@ -2431,7 +2371,7 @@
 
     /* home page teams section css  */
     .rn-founder {
-        background-color: #f9f9f9;
+        background-color: #fff;
     }
 
     .rn-founder-subtitle {
